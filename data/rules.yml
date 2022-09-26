@@ -1,0 +1,184 @@
+version: "3.1"
+
+rules:
+
+- rule: Menyapa ketika user memberikan sapaan
+  steps:
+  - intent: ask_greet
+  - action: utter_greet
+
+- rule: Mengucapkan selamat tinggal ketika user mengakhiri pembicaraan
+  steps:
+  - intent: ask_goodbye
+  - action: utter_goobye
+
+- rule: Ujian Tengah Semester
+  steps:
+  - intent: ask_uts
+  - action: utter_uts
+
+- rule: Ujian Akhir Semester
+  steps:
+  - intent: ask_uas
+  - action: utter_uas
+
+- rule: Registrasi perkuliahan
+  steps:
+  - intent: ask_registrasi
+  - action: utter_registrasi
+
+- rule: Kalender akademik telkom
+  steps:
+  - intent: ask_kalender
+  - action: utter_kalender
+
+- rule: Pengambilan ijazah dan transkrip nilai
+  steps:
+  - intent: ask_pengambilan_ijazah_transkrip
+  - action: utter_pengambilan_ijazah_transkrip
+
+- rule: Surat pengatar pengambilan ijazah 
+  steps:
+  - intent: ask_surat_ijazah
+  - action: utter_surat_ijazah
+
+- rule: Persyaratan untuk pengambilan ijazah dan transkrip nilai
+  steps:
+  - intent: ask_persyaratan_ijazah_transkrip
+  - action: utter_persyaratan_ijazah_transkrip
+
+- rule: Legalisasi dokumen di Telkom University
+  steps:
+  - intent: ask_legalisasi_dokumen
+  - action: utter_legalisasi_dokumen
+
+- rule: Kartu tanda mahasiswa yang hilang atau rusak
+  steps:
+  - intent: ask_ktm
+  - action: utter_ktm
+
+- rule: Pemberkasan sidang
+  steps:
+  - intent: ask_berkas_sidang
+  - action: utter_berkas_sidang
+
+- rule: Panduan buku TA (Tugas Akhir)
+  steps:
+  - intent: ask_panduan_TA
+  - action: utter_panduan_TA
+
+- rule: Panduan proposal TA (Tugas Akhir)
+  steps:
+  - intent: ask_proposal_TA
+  - action: utter_proposal_TA
+
+- rule: Format jurnal TA (Tugas Akhir)
+  steps:
+  - intent: ask_jurnal_TA
+  - action: utter_jurnal_TA
+
+- rule: Format buku TA (Tugas Akhir)
+  steps:
+  - intent: ask_buku_TA
+  - action: utter_buku_TA
+
+- rule: Formulir untuk kesediaan penguji
+  steps:
+  - intent: ask_kesediaan_penguji
+  - action: utter_kesediaan_penguji
+
+- rule: Formulir untuk biodata pembimbing
+  steps:
+  - intent: ask_biodata_pembimbing
+  - action: utter_biodata_pembimbing
+
+- rule: Formulir untuk biodata pembimbing luar
+  steps:
+  - intent: ask_biodata_pembimbing_luar
+  - action: utter_biodata_pembimbing_luar
+
+- rule: Formulir untuk perpanjang SK TA
+  steps:
+  - intent: ask_perpanjang_SKTA
+  - action: utter_perpanjang_SKTA
+
+- rule: Formulir untuk permohonan pemakluman bahasa
+  steps:
+  - intent: ask_pemakluman_bahasa
+  - action: utter_pemakluman_bahasa
+
+- rule: Formulir penilaian untuk Kerja praktik
+  steps:
+  - intent: ask_formulir_KP
+  - action: utter_formulir_KP 
+
+- rule: Berkas kerja praktik
+  steps:
+  - intent: ask_kerja_praktik
+  - action: utter_kerja_praktik
+
+- rule: Kontak LAA FTE
+  steps:
+  - intent: ask_kontak_FTE
+  - action: utter_kontak_FTE
+
+- rule: Kontak LAA FRI
+  steps:
+  - intent: ask_kontak_FRI
+  - action: utter_kontak_FRI
+
+- rule: Kontak LAA FIF
+  steps:
+  - intent: ask_kontak_FIF
+  - action: utter_kontak_FIF
+
+- rule: Kontak LAA FEB
+  steps:
+  - intent: ask_kontak_FEB
+  - action: utter_kontak_FEB
+
+- rule: Kontak LAA FKB
+  steps:
+  - intent: ask_kontak_FKB
+  - action: utter_kontak_FKB
+
+- rule: Kontak LAA FIK
+  steps:
+  - intent: ask_kontak_FIK
+  - action: utter_kontak_FIK
+
+- rule: Kontak LAA FIT
+  steps:
+  - intent: ask_kontak_FIT
+  - action: utter_kontak_FIT
+
+- rule: Apabila pengguna tidak mencantumkan fakultas ketika bertanya kontak LAA
+  steps: 
+  - intent: ask_kontak_LAA
+  - action: utter_ask_kontak_LAA
+
+- rule: Apabila pengguna tidak memberikan keterangan yang jelas untuk fomrmulir yang diinginkan
+  steps:
+  - intent: ask_formulir
+  - action: utter_ask_formulir
+
+- rule: Apabila pengguna tidak memberikan keterangan yang jelas untuk jadwal yang diinginkan
+  steps:
+  - intent: ask_jadwal
+  - action: utter_ask_jadwal
+
+- rule: Untuk melihat list apa saja yang bisa ditanyakan
+  steps:
+  - intent: ask_list
+  - action: utter_list
+
+- rule: Apabila pertayaan yang diajukan kurang dipahami oleh bot
+  steps:
+  - intent: nlu_fallback
+  - action: utter_rephrase
+
+- rule: Apabila pertanyaan yang diajukan out-of-scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+

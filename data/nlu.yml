@@ -1,0 +1,1598 @@
+version: "3.1"
+
+nlu:
+- intent: ask_greet
+  examples: |
+    - /start
+    - Assalamualaikum
+    - hey
+    - hello
+    - hi
+    - halo
+    - selamat pagi
+    - selamat siang
+    - selamat sore
+    - selamat malam
+    - pagi
+    - siang
+    - sore
+    - malam
+    - permisi
+
+- intent: ask_goodbye
+  examples: |
+    - makasih
+    - terima kasih
+    - goodbye
+    - bye
+    - bye bye
+    - see you later
+    - sampai jumpa kembali
+    - Terima kasih dan sampai jumpa
+
+- intent: ask_uts
+  examples: |
+    - /command1
+    - Jadwal ujian tengah semester
+    - Jadwal UTS
+    - UTS kapan?
+    - Kapan UTS?
+    - Kapan UTS dimulai?
+    - UTS dimulai kapan?
+    - UTS dimulai tanggal berapa?
+    - UTS akan dilaksanakan pada tanggal berapa?
+    - UTS dilaksanakan tanggal berapa?
+    - UTS semester ini dimulai kapan?
+    - UTS semester ini dimulai tanggal berapa?
+    - Kapan UTS dilaksanakan?
+    - Kapan UTS akan dilaksanakan?
+    - Kapan terakhir UTS dilakukan?
+    - Kapan jadwal UTS dimulai?
+    - Kapan jadwal UTS selesai?
+    - Kapan jadwal UTS keluar?
+    - Kapan UTS dilaksanakan pada semester ini?
+    - Kapan hari pertama UTS semester ini?
+    - Kapan hari terakhir UTS semester ini?
+    - Tanggal berapa UTS akan dilakukan?
+    - Tanggal berapa UTS dimulai?
+    - Tanggal berapa UTS akan dilaksanakan?
+    - Tanggal berapa UTS dilaksanakan?
+    - Tanggal berapa UTS akan dimulai?
+    - Tanggal berapa jadwal UTS keluar?
+    - Tanggal UTS dimulai?
+    - Tanggal UTS dilakukan?
+    - Apakah UTS akan dilakukan?
+
+- intent: ask_uas
+  examples: |
+    - /command2
+    - Jadwal ujian akhir semester
+    - Jadwal UAS
+    - UAS kapan?
+    - Kapan UAS?
+    - Kapan UAS dimulai?
+    - UAS dimulai kapan?
+    - UAS dimulai tanggal berapa?
+    - UAS akan dilaksanakan pada tanggal berapa?
+    - UAS dilaksanakan tanggal berapa?
+    - UAS semester ini dimulai kapan?
+    - UAS semester ini dimulai tanggal berapa?
+    - Ujian Akhir kapan?
+    - Kapan ujian akhir?
+    - Kapan UAS dilaksanakan?
+    - Kapan UAS akan dilaksanakan?
+    - Kapan terakhir UAS dilakukan?
+    - Kapan jadwal UAS dimulai?
+    - Kapan jadwal UAS selesai?
+    - Kapan jadwal UAS keluar?
+    - Kapan UAS dilaksanakan pada semester ini?
+    - Kapan hari pertama UAS semester ini?
+    - Kapan hari terakhir UAS semester ini?
+    - Jadwal UAS keluar kapan?
+    - Jadwal UAS kapan keluar?
+    - Tanggal berapa UAS akan dilakukan?
+    - Tanggal berapa UAS dimulai?
+    - Tanggal berapa UAS akan dilaksanakan?
+    - Tanggal berapa UAS dilaksanakan?
+    - Tanggal berapa UAS akan dimulai?
+    - Tanggal berapa jadwal UAS keluar?
+    - Tanggal UAS dimulai?
+    - Tanggal UAS dilakukan?
+    - Apakah UAS akan dilakukan?
+
+- intent: ask_registrasi
+  examples: |
+    - /command17
+    - Jadwal registrasi
+    - Masa registrasi
+    - Registrasi kuliah
+    - Registrasi perkuliahan
+    - Jadwal registrasi FTE
+    - Masa registrasi FTE
+    - Registrasi kuliah FTE
+    - Registrasi perkuliahan FTE
+    - Registrasi dilakukan berapa lama?
+    - Registrasi perkuliahan dilakukan berapa lama?
+    - Registrasi kuliah dilakukan berapa lama?
+    - Registrasi perkuliahan dimulai kapan?
+    - Kapan masa registrasi dilakukan?
+    - Kapan masa registrasi perkuliakan dilakukan?
+    - Kapan masa registrasi kuliah dilakukan?
+    - Kapan registrasi dilakukan?
+    - Kapan registrasi perkuliahan dilakukan?
+    - Kapan registrasi kuliah dilakukan?
+    - Kapan masa registrasi dimulai?
+    - Kapan masa registrasi perkuliahan dimulai?
+    - Kapan masa registrasi kuliah dimulai?
+    - Kapan registrasi dimulai?
+    - Kapan registrasi perkuliahan dimulai?
+    - Kapan registrasi kuliah dimulai?
+    - Kapan masa registrasi berakhir?
+    - Kapan masa registrasi perkuliahan berakhir?
+    - Kapan masa registrasi kuliah berakhir?
+    - Kapan registrasi berakhir?
+    - Kapan registrasi perkuliahan berakhir?
+    - Kapan registrasi kuliah berakhir?
+    - Sampai kapan registrasi berlaku?
+    - Sampai kapan registrasi perkuliahan berlaku?
+    - Sampai kapan registrasi kuliah berlaku?
+    - Sampai kapan masa registrasi berlaku?
+    - Sampai kapan masa registrasi perkuliahan berlaku?
+    - Sampai kapan masa registrasi kuliah berlaku?
+    - Sampai kapan registrasi dilakukan?
+    - Sampai kapan registrasi perkuliahan dilakukan?
+    - Sampai kapan registrasi kuliah dilakukan?
+    - Sampai kapan masa registrasi dilakukan?
+    - Sampai kapan masa registrasi perkuliahan dilakukan?
+    - Sampai kapan masa registrasi kuliah dilakukan?
+    - Berapa lama registrasi berlaku?
+    - Berapa lama masa registrasi dilakukan?
+    - Berapa lama masa registrasi kuliah dilakukan?
+    - Berapa lama masa registrasi perkuliahan dilakukan?
+    - Berapa lama registrasi kuliah dilakukan?
+    - Berapa lama registrasi perkuliahan dilakukan?
+    - Berapa lama masa registrasi berlaku?
+    - Berapa lama masa registrasi kuliah berlaku?
+    - Berapa lama masa registrasi perkuliahan berlaku?
+    - Berapa lama registrasi kuliah berlaku?
+    - Berapa lama registrasi perkuliahan berlaku?
+    - Berapa lama proses registrasi dilakukan?
+    - Proses registrasi dilakukan berapa lama?
+
+- intent: ask_kalender
+  examples: |
+    - /command14
+    - Kalender Telkom
+    - Kalender akademik
+    - Kalender akademik 2022
+    - Kalender akademik 2021
+    - Kalender akademik 2020
+    - Kalender akademik 2019
+    - Kalender akademik 2018
+    - Kalender akademik Telkom
+    - Kalender akademik Telkom 2022
+    - Kalender akademik Telkom 2021
+    - Kalender akademik Telkom 2020
+    - Kalender akademik Telkom 2019
+    - Kalender akademik Telkom 2018
+    - Kalender akademik bisa dilihat dimana?
+    - Dimana kalender akademik Telkom?
+    - Dimana saya bisa mendapatkan kalender akademik Telkom?
+    - Dimana saya bisa melihat kalender akademik Telkom?
+
+- intent: ask_pengambilan_ijazah_transkrip
+  examples: |
+    - /command29
+    - Cara ambil ijazah
+    - Cara ambil ijasah
+    - Cara ambil transkrip nilai
+    - Cara ambil ijazah dan transkrip nilai
+    - Cara pengambilan ijazah
+    - Cara pengambilan transkrip nilai
+    - Cara pengambilan ijazah dan transrip nilai
+    - Pengambilan ijazah
+    - Pengambilan transkrip nilai
+    - Pengambilan ijazah dan transkip nilai
+    - Jadwal ambil ijazah
+    - Jadwal ambil transkrip nilai
+    - Jadwal ambil ijazah dan transkrip nilai
+    - Jadwal pengambilan ijazah
+    - Jadwal pengambilan transkrip nilai
+    - Jadwal pengambilan ijazah dan transkrip nilai
+    - Cara ambil ijazah FTE
+    - Cara ambil transkrip nilai FTE
+    - Cara ambil ijazah dan transkrip nilai FTE
+    - Cara pengambilan ijazah FTE
+    - Cara pengambilan transkrip nilai FTE
+    - Cara pengambilan ijazah dan transrip nilai FTE
+    - Pengambilan ijazah FTE
+    - Pengambilan transkrip nilai FTE
+    - Pengambilan ijazah dan transkip nilai FTE
+    - Jadwal ambil ijazah FTE
+    - Jadwal ambil transkrip nilai FTE
+    - Jadwal ambil ijazah dan transkrip nilai FTE
+    - Jadwal pengambilan ijazah FTE
+    - Jadwal pengambilan transkrip nilai FTE
+    - Jadwal pengambilan ijazah dan transkrip nilai FTE
+    - Cara ambil ijasah
+    - Cara ambil ijasah
+    - Cara ambil transkrip nilai
+    - Cara ambil ijasah dan transkrip nilai
+    - Cara pengambilan ijasah
+    - Cara pengambilan transkrip nilai
+    - Cara pengambilan ijasah dan transrip nilai
+    - Pengambilan ijasah
+    - Pengambilan transkrip nilai
+    - Pengambilan ijasah dan transkip nilai
+    - Cara ambil ijasah FTE
+    - Cara ambil transkrip nilai FTE
+    - Cara ambil ijasah dan transkrip nilai FTE
+    - Cara pengambilan ijasah FTE
+    - Cara pengambilan transkrip nilai FTE
+    - Cara pengambilan ijasah dan transrip nilai FTE
+    - Pengambilan ijasah FTE
+    - Pengambilan transkrip nilai FTE
+    - Pengambilan ijasah dan transkip nilai FTE
+    - Jadwal ambil ijasah FTE
+    - Jadwal ambil ijasah dan transkrip nilai FTE
+    - Jadwal pengambilan ijasah FTE
+    - Jadwal pengambilan ijasah dan transkrip nilai FTE
+    - Siapa yang bisa mengambil ijazah?
+    - Siapa yang bisa mengambil transkrip nilai?
+    - Siapa yang bisa mengambil ijazah dan transkrip nilai?
+    - Siapa saja yang dapat mengambil ijazah?
+    - Siapa saja yang dapat mengambil transkrip nilai?
+    - Siapa saja yang dapat mengambil ijazah dan transkrip nilai?
+    - Bagaimana cara pengambilan ijazah?
+    - Bagaimana cara pengambilan transkrip nilai?
+    - Bagaimana cara pengambilan ijazah dan transkrip nilai?
+    - Kapan pengambilan ijazah dapat dilakukan?
+    - Kapan pemgambilan transkrip nilai dapat dilakukan?
+    - Kapan pengambilan ijazah dan transkrip nilai dapat dilakukan?
+    - Apakah pengambilan ijazah dapat diwakilkan?
+    - Apakah pemgambilan transkrip nilai dapat diwakilkan?
+    - Apakah pengambilan ijazah dan transkrip nilai dapat diwakilkan?
+    - Apakah pengambilan ijazah bisa diwakilkan?
+    - Apakah pemgambilan transkrip nilai bisa diwakilkan?
+    - Pakah pengambilan ijazah dan transkrip nilai bisa diwakilkan?
+    - Apakah pengambilan ijazah dapat dilakukan hari senin?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari senin?
+    - Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari senin?
+    - Apakah pengambilan ijazah dapat dilakukan hari selasa?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari selasa?
+    - Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari selasa?
+    - Apakah pengambilan ijazah dapat dilakukan hari rabu?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari rabu?
+    - Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari rabu?
+    - Apakah pengambilan ijazah dapat dilakukan hari kamis?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari kamis?
+    - Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari kamis?
+    - Apakah pengambilan ijazah dapat dilakukan hari jumat?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari jumat?
+    - Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari jumat?
+    - Apakah pengambilan ijazah dapat dilakukan hari sabtu?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari sabtu?
+    - Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari sabtu?
+    - Apakah pengambilan ijazah dapat dilakukan hari minggu?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari minggu?
+    - Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari minggu?
+    - Siapa yang bisa mengambil ijasah?
+    - Siapa yang bisa mengambil transkrip nilai?
+    - Siapa yang bisa mengambil ijasah dan transkrip nilai?
+    - Siapa saja yang dapat mengambil ijasah?
+    - Siapa saja yang dapat mengambil transkrip nilai?
+    - Siapa saja yang dapat mengambil ijasah dan transkrip nilai?
+    - Bagaimana cara pengambilan ijasah?
+    - Bagaimana cara pengambilan transkrip nilai?
+    - Bagaimana cara pengambilan ijasah dan transkrip nilai?
+    - Kapan pengambilan ijasah dapat dilakukan?
+    - Kapan pemgambilan transkrip nilai dapat dilakukan?
+    - Kapan pengambilan ijasah dan transkrip nilai dapat dilakukan?
+    - Apakah pengambilan ijasah dapat diwakilkan?
+    - Apakah pemgambilan transkrip nilai dapat diwakilkan?
+    - Apakah pengambilan ijasah dan transkrip nilai dapat diwakilkan?
+    - Apakah pengambilan ijasah bisa diwakilkan?
+    - Apakah pemgambilan transkrip nilai bisa diwakilkan?
+    - Pakah pengambilan ijasah dan transkrip nilai bisa diwakilkan?
+    - Apakah pengambilan ijasah dapat dilakukan hari senin?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari senin?
+    - Apakah pengambilan ijasah dan transkrip nilai dapat dilakukan hari senin?
+    - Apakah pengambilan ijasah dapat dilakukan hari selasa?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari selasa?
+    - Apakah pengambilan ijasah dan transkrip nilai dapat dilakukan hari selasa?
+    - Apakah pengambilan ijasah dapat dilakukan hari rabu?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari rabu?
+    - Apakah pengambilan ijasah dan transkrip nilai dapat dilakukan hari rabu?
+    - Apakah pengambilan ijasah dapat dilakukan hari kamis?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari kamis?
+    - Apakah pengambilan ijasah dan transkrip nilai dapat dilakukan hari kamis?
+    - Apakah pengambilan ijasah dapat dilakukan hari jumat?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari jumat?
+    - Apakah pengambilan ijasah dan transkrip nilai dapat dilakukan hari jumat?
+    - Apakah pengambilan ijasah dapat dilakukan hari sabtu?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari sabtu?
+    - Apakah pengambilan ijasah dan transkrip nilai dapat dilakukan hari sabtu?
+    - Apakah pengambilan ijasah dapat dilakukan hari minggu?
+    - Apakah pengambilan transkrip nilai dapat dilakukan hari minggu?
+    - Apakah pengambilan ijasah dan transkrip nilai dapat dilakukan hari minggu?
+
+- intent: ask_surat_ijazah
+  examples: |
+    - /command27
+    - Surat pengambilan ijazah
+    - Surat pengatar pengambilan ijazah
+    - Form ijazah
+    - Form pengambilan ijazah
+    - Form surat pengantar pengambilan ijazah
+    - Formulir ijazah
+    - Formulir pengambilan ijazah
+    - Formulir surat pengantar pengambilan ijazah
+    - Surat pengambilan ijazah FTE
+    - Surat pengatar pengambilan ijazah FTE
+    - Form ijazah FTE
+    - Form pengambilan ijazah FTE
+    - Form surat pengantar pengambilan ijazah FTE
+    - Formulir ijazah FTE
+    - Formulir pengambilan ijazah FTE
+    - Formulir surat pengantar pengambilan ijazah FTE
+    - Surat pengambilan ijasah
+    - Surat pengatar pengambilan ijasah
+    - Form ijasah
+    - Form pengambilan ijasah
+    - Form surat pengantar pengambilan ijasah
+    - Formulir ijasah
+    - Formulir pengambilan ijasah
+    - Formulir surat pengantar pengambilan ijasah
+    - Surat pengambilan ijasah FTE
+    - Surat pengatar pengambilan ijasah FTE
+    - Form ijasah FTE
+    - Form pengambilan ijasah FTE
+    - Form surat pengantar pengambilan ijasah FTE
+    - Formulir ijasah FTE
+    - Formulir pengambilan ijasah FTE
+    - Formulir surat pengantar pengambilan ijasah FTE
+    - Dimana surat pengantar pengambilan ijazah?
+    - Dimana form surat pengantar pengambilan ijazah?
+    - Dimana formulir surat pengantar pengambilan ijazah?
+    - Dimana saya bisa mendapatkan form surat pengantar pengambilan ijazah?
+    - Dimana surat pengantar pengambilan ijasah?
+    - Dimana form surat pengantar pengambilan ijasah?
+    - Dimana formulir surat pengantar pengambilan ijasah?
+    - Dimana saya bisa mendapatkan form surat pengantar pengambilan ijasah?
+
+- intent: ask_persyaratan_ijazah_transkrip
+  examples: |
+    - /command28
+    - Syarat ambil ijazah
+    - Syarat ambil transkrip nilai
+    - Syarat ambil ijazah dan transkrip nilai
+    - Syarat pengambilan ijazah
+    - Syarat pengambilan transkrip nilai
+    - Syarat pengambilan ijazah dan transkrip nilai
+    - Persyaratan pengambilan ijazah
+    - Persyaratan pengambilan transkrip nilai
+    - Persyaratan pengambilan ijazah dan transkrip nilai
+    - Persyaratan utama pengambilan ijazah
+    - Persyaratan utama pengambilan transkrip nilai
+    - Persyaratan utama pengambilan ijazah dan transkrip nilai
+    - Persyaratan utama untuk mengambil ijazah
+    - Persyaratan utama untuk mengambil transkrip nilai
+    - Persyaratan utama untuk mengambil ijazah dan transkrip nilai
+    - Syarat ambil ijazah FTE
+    - Syarat ambil transkrip nilai FTE
+    - Syarat ambil ijazah dan transkrip nilai FTE
+    - Syarat pengambilan ijazah FTE
+    - Syarat pengambilan transkrip nilai FTE
+    - Syarat pengambilan ijazah dan transkrip nilai FTE
+    - Persyaratan pengambilan ijazah FTE
+    - Persyaratan pengambilan transkrip nilai FTE
+    - Persyaratan pengambilan ijazah dan transkrip nilai FTE
+    - Persyaratan utama pengambilan ijazah FTE
+    - Persyaratan utama pengambilan transkrip nilai FTE
+    - Persyaratan utama pengambilan ijazah dan transkrip nilai FTE
+    - Persyaratan utama untuk mengambil ijazah FTE
+    - Persyaratan utama untuk mengambil transkrip nilai FTE
+    - Persyaratan utama untuk mengambil ijazah dan transkrip nilai FTE
+    - Syarat ambil ijasah
+    - Syarat ambil transkrip nilai
+    - Syarat ambil ijasah dan transkrip nilai
+    - Syarat pengambilan ijasah
+    - Syarat pengambilan transkrip nilai
+    - Syarat pengambilan ijasah dan transkrip nilai
+    - Persyaratan pengambilan ijasah
+    - Persyaratan pengambilan transkrip nilai
+    - Persyaratan pengambilan ijasah dan transkrip nilai
+    - Persyaratan utama pengambilan ijasah
+    - Persyaratan utama pengambilan transkrip nilai
+    - Persyaratan utama pengambilan ijasah dan transkrip nilai
+    - Persyaratan utama untuk mengambil ijasah
+    - Persyaratan utama untuk mengambil transkrip nilai
+    - Persyaratan utama untuk mengambil ijasah dan transkrip nilai
+    - Syarat ambil ijasah FTE
+    - Syarat ambil transkrip nilai FTE
+    - Syarat ambil ijasah dan transkrip nilai FTE
+    - Syarat pengambilan ijasah FTE
+    - Syarat pengambilan transkrip nilai FTE
+    - Syarat pengambilan ijasah dan transkrip nilai FTE
+    - Persyaratan pengambilan ijasah FTE
+    - Persyaratan pengambilan transkrip nilai FTE
+    - Persyaratan pengambilan ijasah dan transkrip nilai FTE
+    - Persyaratan utama pengambilan ijasah FTE
+    - Persyaratan utama pengambilan transkrip nilai FTE
+    - Persyaratan utama pengambilan ijasah dan transkrip nilai FTE
+    - Persyaratan utama untuk mengambil ijasah FTE
+    - Persyaratan utama untuk mengambil transkrip nilai FTE
+    - Persyaratan utama untuk mengambil ijasah dan transkrip nilai FTE
+    - Apa persyaratan untuk mengambil ijazah?
+    - Apa persyaratan untuk mengambil transkrip nilai?
+    - Apa persyaratan untuk mengambil ijazah dan transkrip nilai?
+    - Apa saja persyaratan untuk mengambil ijazah?
+    - Apa saja persyaratan untuk mengambil transkrip nilai?
+    - Apa saja persyaratan untuk mengambil ijazah dan transkrip nilai?
+    - Apakah ada persyaratan untuk mengambil ijazah?
+    - Apakah ada persyaratan untuk mengambil transkrip nilai?
+    - Apakah ada persyaratan untuk mengambil ijazah dan transkrip nilai?
+    - Apa persyaratan untuk mengambil ijasah?
+    - Apa persyaratan untuk mengambil transkrip nilai?
+    - Apa persyaratan untuk mengambil ijasah dan transkrip nilai?
+    - Apa saja persyaratan untuk mengambil ijasah?
+    - Apa saja persyaratan untuk mengambil transkrip nilai?
+    - Apa saja persyaratan untuk mengambil ijasah dan transkrip nilai?
+    - Apakah ada persyaratan untuk mengambil ijasah?
+    - Apakah ada persyaratan untuk mengambil transkrip nilai?
+    - Apakah ada persyaratan untuk mengambil ijasah dan transkrip nilai?
+
+- intent: ask_legalisasi_dokumen
+  examples: |
+    - /command16
+    - Legalisasi dokumen
+    - Pengajuan legalisir online
+    - Pengajuan legalisir dokumen online
+    - Legalisasi dokumen FTE
+    - Pengajuan legalisir online FTE
+    - Pengajuan legalisir dokumen online FTE
+    - Bagaimana cara untuk legalisasi dokumen?
+    - Bagaimana cara untuk legalisir online?
+    - Bagaimana cara untuk legalisir dokumen online?
+    - Cara untuk legalisir dokumen?
+    - Cara untuk legalisir online?
+    - Cara untuk legalisir dokumen online?
+
+- intent: ask_ktm
+  examples: |
+    - /command18
+    - KTM baru
+    - Kartu tanda mahasiswa baru
+    - Pencetakan ulang ktm 
+    - Pencetakan ulang kartu tanda mahasiswa
+    - Pembuatan lagi ktm
+    - Pembuatan lagi kartu tanda mahasiswa
+    - Mau buat ktm baru
+    - Mau buat kartu mahasiswa baru
+    - Pengajuan pencetakan ktm baru
+    - Persyaratan pengajuan pencetakan ktm baru
+    - Biaya pengajuan pencetakan ktm baru
+    - Berkas untuk pengurusan ktm yang hilang
+    - Berkas untuk pengurusan ktm yang rusak
+    - KTM baru FTE
+    - Kartu tanda mahasiswa baru FTE
+    - Pencetakan ulang ktm FTE
+    - Pencetakan ulang kartu tanda mahasiswa FTE
+    - Pengajuan pencetakan ktm baru FTE
+    - Persyaratan pengajuan pencetakan ktm baru FTE
+    - Biaya pengajuan pencetakan ktm baru FTE
+    - Berkas untuk pengurusan ktm yang hilang FTE
+    - Berkas untuk pengurusan ktm yang rusak FTE
+    - Apa saja persyaratan pengajuan pencetakan ktm baru?
+    - Berapa harga pencetakan ktm baru?
+    - Berkas apa saja yang perlu disiapkan untuk pengurusan ktm yang hilang?
+    - Berkas apa saja yang perlu disiapkan untuk pengurusan ktm yang rusak?
+
+- intent: ask_berkas_sidang
+  examples: |
+    - /command12
+    - Berkas
+    - Berkas TA
+    - Berkas sidang
+    - Berkas sidang TA
+    - Berkas sidang tugas akhir
+    - Berkas sidang FTE
+    - Berkas sidang TA FTE
+    - Berkas sidang tugas akhir FTE
+    - Berkas untuk sidang
+    - Berkas untuk sidang TA
+    - Berkas untuk sidang tugas akhir
+    - Berkas untuk sidang FTE
+    - Berkas untuk sidang TA FTE
+    - Berkas untuk sidang tugas akhir FTE
+    - Berkas untuk mengikuti sidang
+    - Berkas untuk mengikuti sidang TA
+    - Berkas untuk mengikuti sidang tingkat akhir
+    - Berkas apa saja yang harus di kumpulkan untuk mengikuti sidang?
+    - Berkas apa saja yang harus di kumpulkan untuk mengikuti sidang TA?
+    - Berkas apa saja yang harus di kumpulkan untuk mengikuti sidang tingkat akhir?
+    - Apa saja yang harus dikumpulkan untuk mengikuti sidang?
+    - Apa saja yang harus dikumpulkan untuk mengikuti sidan TA?
+    - Apa saja yang harus dikumpulkan untuk mengikuti sidang tingkat akhir?
+    - Apa yang harus ada untuk sidang?
+    - Apa yang harus disiapkan untuk sidang?
+    - Apa yang mesti disiapkan untuk sidang?
+    - Untuk mengikuti sidang harus mengumpulkan berkas apa saja?
+    - Untuk mengikuti sidang TA harus mengumpulkan berkas apa saja?
+    - Untuk mengikuti sidang tingkat akhir harus mengumpulkan berkas apa saja?
+
+- intent: ask_panduan_TA
+  examples: |
+    - Buku panduan TA
+    - Buku panduan tugas akhir
+    - Buku panduan pelaksanaan TA
+    - Buku panduan pelaksanaan tugas akhir
+    - Buku panduan untuk pelaksanaan TA
+    - Buku panduan untuk pelaksanaan tugas akhir
+    - Buku panduan TA FTE
+    - Buku panduan tugas akhir FTE
+    - Buku panduan pelaksanaan TA FTE
+    - Buku panduan pelaksanaan tugas akhir FTE
+    - Buku panduan untuk pelaksanaan TA FTE
+    - Buku panduan untuk pelaksanaan tugas akhir FTE
+    - Dimana buku panduan pelaksanaan TA?
+    - Dimana buku panduan pelaksanaan tugas akhir?
+    - Dimana buku panduan untuk pelaksanaan TA?
+    - Dimana buku panduan untuk pelaksanaan tugas akhir?
+    - Dimana saya mendapatkan buku panduan pelaksanaan TA?
+    - Dimana saya mendapatkan buku panduan pelaksanaan tugas akhir?
+    - Dimana saya bisa mendapatkan buku panduan pelaksanaan TA?
+    - Dimana saya bisa mendapatkan buku panduan pelaksanaan tugas akhir?
+
+- intent: ask_proposal_TA
+  examples: |
+    - /command13
+    - Proposal TA
+    - Proposal tugas akhir
+    - Format proposal TA
+    - Format proposal tugas akhir
+    - Format untuk proposal TA
+    - Format untuk proposal tugas akhir
+    - Format proposal untuk TA
+    - Format proposal untuk tugas akhir
+    - Proposal TA FTE
+    - Proposal tugas akhir FTE
+    - Format proposal TA FTE
+    - Format proposal tugas akhir FTE
+    - Format untuk proposal TA FTE
+    - Format untuk proposal tugas akhir FTE
+    - Format proposal untuk TA FTE
+    - Format proposal untuk tugas akhir
+    - Format proposal tugas akhir dimana?
+    - Format proposal tugas akhir ada dimana?
+    - Proposal tugas akhir dimana?
+    - Proposal tugas akhir ada dimana?
+    - Dimana format proposal TA?
+    - Dimana format proposal tugas akhir?
+    - Dimana format untuk proposal TA?
+    - Dimana format untuk proposal tugas akhir?
+    - Dimana format proposal untuk TA?
+    - Dimana format proposal untuk tugas akhir?
+    - Dimana saya mendapatkan format proposal TA?
+    - Dimana saya mendapatkan format proposal tugas akhir?
+
+- intent: ask_jurnal_TA
+  examples: |
+    - /command11
+    - Jurnal TA
+    - Jurnal tugas akhir
+    - Format jurnal TA
+    - Format jurnal tugas akhir
+    - Format untuk jurnal TA
+    - Format untuk jurnal tugas akhir
+    - Format jurnal untuk TA
+    - Format jurnal untuk tugas akhir
+    - Jurnal TA FTE
+    - Jurnal tugas akhir FTE
+    - Format jurnal TA FTE
+    - Format jurnal tugas akhir FTE
+    - Format untuk jurnal TA FTE
+    - Format untuk jurnal tugas akhir FTE
+    - Format jurnal untuk TA FTE
+    - Format jurnal untuk tugas akhir FTE
+    - Format jurnal TA ada dimana?
+    - Format jurnal tugas akhir ada dimana?
+    - Format jurnal untuk TA ada dimana?
+    - Format jurnal untuk tugas akhir ada dimana?
+    - Dimana format jurnal TA?
+    - Dimana format jurnal tugas akhir?
+    - Dimana saya mendapatkan format jurnal TA?
+    - Dimana saya mendapatkan format jurnal tugas akhir?
+
+- intent: ask_buku_TA
+  examples: |
+    - /command10
+    - Buku TA
+    - Buku tugas akhir
+    - Format buku TA
+    - Format buku tugas akhir
+    - Format untuk buku TA
+    - Format untuk buku tugas akhir
+    - Buku TA FTE
+    - Buku tugas akhir FTE
+    - Format buku TA FTE
+    - Format buku tugas akhir FTE
+    - Format untuk buku TA FTE
+    - Format untuk buku tugas akhir FTE
+    - Format buku TA ada dimana?
+    - Format buku tugas akhir ada dimana?
+    - Buku TA ada dimana?
+    - Buku tugas akhir ada dimana?
+    - Dimana format buku TA?
+    - Dimana format buku tugas akhir?
+
+- intent: ask_kesediaan_penguji
+  examples: |
+    - /command20
+    - Form penguji
+    - Formulir penguji
+    - Form penguji KP
+    - Formulir penguji KP
+    - Form penguji kerja praktik
+    - Formulir kerja praktik
+    - Dokumen kesediaan penguji
+    - Dokumen untuk kesediaan penguji
+    - Form kesediaan penguji
+    - Form untuk kesediaan penguji
+    - Formulir kesediaan penguji
+    - Formulir untuk kesediaan penguji
+    - Form penguji FTE
+    - Formulir penguji FTE
+    - Form penguji KP FTE
+    - Formulir penguji KP FTE
+    - Form penguji kerja praktik FTE
+    - Formulir kerja praktik FTE
+    - Dokumen kesediaan penguji FTE
+    - Dokumen untuk kesediaan penguji FTE
+    - Form kesediaan penguji FTE
+    - Form untuk kesediaan penguji FTE
+    - Formulir kesediaan penguji FTE
+    - Formulir untuk kesediaan penguji FTE
+    - Form kesediaan penguji ada dimana?
+    - Form untuk kesediaan penguji ada dimana?
+    - Formulir kesediaan penguji ada dimana?
+    - Formulir untuk kesediaan penguji ada dimana?
+
+- intent: ask_biodata_pembimbing
+  examples: |
+    - /command22
+    - Dokumen biodata pembimbing 
+    - Dokumen untuk biodata 
+    - Bio pbb
+    - Bio pembimbing
+    - Bio untuk pembimbing
+    - Biodata pbb
+    - Biodata pembimbing
+    - Biodata untuk pembimbing 
+    - Form biodata pembimbing
+    - Form untuk biodata pembimbing
+    - Formulir biodata pembimbing
+    - Formulir biodata untuk pembimbing
+    - Dokumen biodata pembimbing FTE
+    - Dokumen untuk biodata FTE
+    - Bio pbb FTE
+    - Bio pembimbing FTE
+    - Bio untuk pembimbing FTE
+    - Biodata pbb FTE
+    - Biodata pembimbing FTE
+    - Biodata untuk pembimbing FTE
+    - Form biodata pembimbing FTE
+    - Form untuk biodata pembimbing FTE
+    - Formulir biodata pembimbing FTE
+    - Formulir biodata untuk pembimbing FTE
+    - Ada dimana biodata pembimbing?
+    - Ada dimana biodata untuk pembimbing?
+    - Dimana biodata pembimbing?
+    - Dimana biodata untuk pembimbing?
+
+- intent: ask_biodata_pembimbing_luar
+  examples: |
+    - /command23
+    - Dokumen biodata pembimbing luar
+    - Dokumen untuk biodata pembimbing luar
+    - Bio pbb luar
+    - Bio untuk pbb luar
+    - Biodata pbb luar
+    - Biodata pembimbing luar
+    - Biodata pembimbing dari luar
+    - Biodata untuk pembimbing luar
+    - Biodata untuk pembimbing dari luar
+    - Form biodata pembimbing luar
+    - Form biodata pembimbing dari luar
+    - Form biodata untuk pembimbing luar
+    - Form biodata untuk pembimbing dari luar
+    - Formulir biodata pembimbing luar
+    - Formulir biodata untuk pembimbing luar
+    - Formulir biodata pembimbing dari luar
+    - Formulir biodata untuk pembimbing dari luar
+    - Dokumen biodata pembimbing luar FTE
+    - Dokumen untuk biodata pembimbing luar FTE
+    - Bio pbb luar FTE
+    - Bio untuk pbb luar FTE
+    - Biodata pbb luar FTE
+    - Biodata pembimbing luar FTE
+    - Biodata pembimbing dari luar FTE
+    - Biodata untuk pembimbing luar FTE
+    - Biodata untuk pembimbing dari luar FTE
+    - Form biodata pembimbing luar FTE
+    - Form biodata pembimbing dari luar FTE
+    - Form biodata untuk pembimbing luar FTE
+    - Form biodata untuk pembimbing dari luar FTE
+    - Formulir biodata pembimbing luar FTE
+    - Formulir biodata untuk pembimbing luar FTE
+    - Formulir biodata pembimbing dari luar FTE
+    - Formulir biodata untuk pembimbing dari luar FTE
+    - Ada dimana biodata pembimbing luar?
+    - Ada dimana biodata untuk pembimbing luar?
+    - Ada dimana biodata untuk pembimbing dari luar?
+    - Dimana biodata pembimbing luar?
+    - Dimana biodata untuk pembimbing luar?
+
+- intent: ask_perpanjang_SKTA
+  examples: |
+    - /command19
+    - SK TA baru
+    - Membuat SK TA baru
+    - Pembuatan SK TA baru
+    - Perpanjang SKTA
+    - Perpanjang SK TA
+    - Perpanjangan SKTA
+    - Perpanjangan SK TA
+    - Dokumen perpanjang SK TA
+    - Dokumen untuk perpanjang SK TA
+    - Form perpanjang SK TA
+    - Form perpanjangan SK TA
+    - Form untuk perpanjang SK TA
+    - Form untuk perpanjangan SK TA
+    - Formulir perpanjang SK TA
+    - Formulir perpanjangan SK TA
+    - Formulir untuk perpanjang SK TA
+    - Formulir untuk perpanjangan SK TA
+    - Perpanjang SKTA FTE
+    - Perpanjang SK TA FTE
+    - Perpanjangan SKTA FTE
+    - Perpanjangan SK TA FTE
+    - Dokumen perpanjang SK TA FTE
+    - Dokumen untuk perpanjang SK TA FTE
+    - Form perpanjang SK TA FTE
+    - Form perpanjangan SK TA FTE
+    - Form untuk perpanjang SK TA FTE
+    - Form untuk perpanjangan SK TA FTE
+    - Formulir perpanjang SK TA FTE
+    - Formulir perpanjangan SK TA FTE
+    - Formulir untuk perpanjang SK TA FTE
+    - Formulir untuk perpanjangan SK TA FTE
+    - Ada dimana formulir perpanjang SK TA?
+    - Ada dimana formulir perpanjangan SK TA?
+    - Ada dimana formulir untuk perpanjang SK TA?
+    - Ada dimana formulir untuk perpanjangan SK TA?
+    - Dimana formulir perpanjang SK TA?
+    - Dimana formulir perpanjangan SK TA?
+    - Dimana formulir untuk perpanjang SK TA?
+    - Dimana formulir untuk perpanjangan SK TA?
+
+- intent: ask_pemakluman_bahasa
+  examples: |
+    - /command21
+    - Surat pemakluman LAC
+    - Surat LAC
+    - Surat pemakluman EPrT
+    - Surat pemakluman EPrT kurang
+    - Surat pemakluman EPrT tidak cukup
+    - Dokumen permohonan pemakluman bahasa
+    - Dokumen permohonan untuk pemakluman bahasa
+    - Permohonan pemakluman bahasa
+    - Permohonan untuk pemakluman bahasa
+    - Surat permohonan pemakluman bahasa
+    - Surat permohonan untuk pemakluman bahasa
+    - Form permohonan pemakluman bahasa
+    - Form untuk permohonan pemakluman bahasa
+    - Formulir permohonan pemakluman bahasa
+    - Formulir untuk permohonan pemakluman bahasa
+    - Surat pemakluman LAC FTE
+    - Surat LAC FTE
+    - Surat pemakluman EpRT FTE
+    - Dokumen permohonan pemakluman bahasa FTE
+    - Dokumen permohonan untuk pemakluman bahasa FTE
+    - Permohonan pemakluman bahasa FTE
+    - Permohonan untuk pemakluman bahasa FTE
+    - Surat permohonan pemakluman bahasa FTE
+    - Surat permohonan untuk pemakluman bahasa FTE
+    - Form permohonan pemakluman bahasa FTE
+    - Form untuk permohonan pemakluman bahasa FTE
+    - Formulir permohonan pemakluman bahasa FTE
+    - Formulir untuk permohonan pemakluman bahasa FTE
+    - Ada dimana surat permohonan pemakluman bahasa?
+    - Ada dimana surat untuk permohonan pemakluman bahasa?
+    - Dimana surat permohonan pemakluman bahasa?
+    - Dimana surat untuk permohonan pemakluman bahasa?
+    - Dimana form permohonan pemakluman bahasa?
+    - Dimana form untuk permohonan pemakluman bahasa?
+
+- intent: ask_formulir_KP
+  examples: |
+    - /command24
+    - /command25
+    - /command26
+    - Penilaian pbb akademik
+    - Penilaian pbb lapangan
+    - Penilaian sidang pbb akademik
+    - Penilaian sidang pbb lapangan
+    - Penilaian sidang penguji
+    - Form nilai pbb lapangan
+    - Form nilai pbb akademik
+    - Form nilai penguji
+    - Form nilai sidang pbb lapangan
+    - Form nilai sidang pbb akademik
+    - Form nilai sidang penguji
+    - Form penilaian pbb lapangan
+    - Form penilaian pbb akademik
+    - Form penilaian sidang pbb lapangan
+    - Form penilaian sidang pbb akademik
+    - Form penilaian pembimbing lapangan
+    - Form penilaian pembimbing akademik
+    - Form penilaian penguji
+    - Form penilaian sidang pembimbing lapangan
+    - Form penialaian sidang pembimbing akademik
+    - Form penilaian sidang penguji
+    - Formulir nilai pbb lapangan
+    - Formulir nilai pbb akademik
+    - Formulir nilai penguji
+    - Formulir nilai sidang pbb lapangan
+    - Formulir nilai sidang pbb akademik
+    - Formulir nilai sidang penguji
+    - Formulir penilaian pbb lapangan
+    - Formulir penilaian pbb akademik
+    - Formulir penilaian sidang pbb lapangan
+    - Formulir penilaian sidang pbb akademik
+    - Formulir penilaian pembimbing lapangan
+    - Formulir penilaian pembimbing akademik
+    - Formulir penilaian penguji 
+    - Formulir penilaian sidang pembimbing lapangan
+    - Formulir penilaian sidang pembimbing akademik
+    - Formulir penilaian sidang penguji
+    - Penilaian pbb akademik FTE
+    - Penilaian pbb lapangan FTE
+    - Form nilai pbb lapangan FTE
+    - Form nilai pbb akademik FTE
+    - Form nilai penguji FTE
+    - Form penilaian pbb labangan FTE
+    - Form penilaian pbb akademik FTE
+    - Form penilaian pembimbing lapangan FTE
+    - Form penilaian pembimbing akademik FTE
+    - Form penilaian penguji FTE
+    - Formulir nilai pbb lapangan FTE
+    - Formulir nilai pbb akademik FTE
+    - Formulir nilai penguji FTE
+    - Formulir penilaian pbb lapangan FTE
+    - Formulir penilaian pbb akademik FTE
+    - Formulir penilaian penguji FTE
+    - Formulir penilaian pembimbing lapangan FTE
+    - Formulir penilaian pembimbing akademik FTE
+    - Ada dimana form penilaian pembimbing lapangan?
+    - Ada dimana form penilaian pembimbing akademik?
+    - Ada dimana form penilaian penguji?
+    - Dimana form penilaian pembimbing lapangan?
+    - Dimana form penilaian pembimbing akademik?
+    - Dimana form penilaian penguji?
+
+- intent: ask_kerja_praktik
+  examples: |
+    - /command15
+    - Magang
+    - KP
+    - Kerja praktik
+    - Berakas magang
+    - Berkas untuk magang
+    - Berkas KP
+    - Berkas untuk KP
+    - Berkas kerja praktik
+    - Berkas untuk kerja praktik
+    - Dokumen magang
+    - Dokumen untuk magang
+    - Dokumen KP
+    - Dokumen untuk KP
+    - Dokumen kerja praktik
+    - Dokumen untuk kerja praktik
+    - Buku panduan magang
+    - Buku panduan untuk magang
+    - Buku panduan KP
+    - Buku panduan untuk KP
+    - Buku panduan kerja praktik
+    - Buku panduan untuk kerja praktik
+    - Informasi magang
+    - Informasi KP
+    - Informasi kerja praktik
+    - Magang FTE
+    - KP FTE
+    - Kerja praktik FTE
+    - Berakas magang FTE
+    - Berkas untuk magang FTE
+    - Berkas KP FTE
+    - Berkas untuk KP FTE
+    - Berkas kerja praktik FTE
+    - Berkas untuk kerja praktik FTE
+    - Dokumen magang FTE
+    - Dokumen untuk magang FTE
+    - Dokumen KP FTE
+    - Dokumen untuk KP FTE
+    - Dokumen kerja praktik FTE
+    - Dokumen untuk kerja praktik FTE
+    - Buku panduan magang FTE
+    - Buku panduan untuk magang FTE
+    - Buku panduan KP FTE
+    - Buku panduan untuk KP FTE
+    - Buku panduan kerja praktik FTE
+    - Buku panduan untuk kerja praktik FTE
+    - Informasi magang FTE
+    - Informasi KP FTE
+    - Informasi kerja praktik
+    - Ada dimana berkas magang?
+    - Ada dimana berkas KP?
+    - Ada dimana berkas kerja praktik?
+    - Ada dimana berkas untuk magang?
+    - Ada dimana berkas untuk KP?
+    - Ada dimana berkas untuk kerja praktik?
+    - Ada dimana informasi magang?
+    - Ada dimana informasi KP?
+    - Ada dimana informasi kerja praktik?
+    - Ada dimana informasi seputar magang?
+    - Ada dimana informasi seputar KP?
+    - Ada dimana informasi seputar kerja praktik?
+    - Ada dimana buku panduan magang?
+    - Ada dimana buku paduang KP?
+    - Ada dimana buku panduan kerja praktik?
+    - Dimana informasi magang?
+    - Dimana informasi KP?
+    - Dimana informasi kerja praktik?
+    - Dimana informasi seputar magang?
+    - Dimana informasi seputar KP?
+    - Dimana berkas magang?
+    - Dimana berkas untuk magang?
+    - Dimana berkas KP?
+    - Dimana berkas untuk KP?
+    - Dimana berkas kerja praktik?
+    - Dimana berkas untuk kerja praktik?
+    - Dimana dokumen magang?
+    - Dimana dokumen untuk magang?
+    - Dimana dokumen KP?
+    - Dimana dokumen untuk KP?
+    - Dimana dokumen kerja praktik?
+    - Dimana dokumen untuk kerja praktik?
+    - Dimana buku panduan magang?
+    - Dimana buku untuk panduan magang?
+    - Dimana buku  panduan KP?
+    - Dimana buku untuk panduan KP?
+    - Dimana buku panduan kerja praktik?
+    - Dimana buku untuk panduan kerja praktik?
+    - Dimana saya bisa mendapatkan informasi magang?
+    - Dimana saya bisa mendapatkan informasi KP?
+    - Dimana saya bisa mendapatkan informasi kerja praktik?
+    - Informasi magang ada dimana?
+    - Informasi KP ada dimana?
+    - Informasi kerja praktik ada dimana?
+
+- intent: ask_kontak_FTE
+  examples: |
+    - /command3
+    - Fakultas teknik elektro
+    - LAA FTE
+    - LAA Fakultas Teknik Elektro
+    - Layanan akademik FTE
+    - Layanan akademik Fakultas Teknik Elektro
+    - Kontak LAA FTE
+    - Kontak LAA Fakultas Teknik Elektro
+    - Kontak LAA elektro
+    - Kontak layanan akademik FTE
+    - No. Hp LAA FTE
+    - No. Hp LAA Fakultas teknik elektro
+    - No. HP layanan akademik FTE
+    - No. HP layanan akademik fakultas teknik elektro
+    - Nomor HP LAA FTE
+    - Nomor HP LAA Fakultas teknik elektro
+    - Nomor HP layanan akademik FTE
+    - Nomor HP layanan akademik fakultas teknik elektro
+    - Email LAA FTE
+    - Email LAA Fakultas teknik elektro
+    - Email layanan akademik FTE
+    - Email layanan akadmnik fakultas teknik elektro
+    - Web LAA FTE
+    - Web LAA Fakultas teknik elektro
+    - Web layanan akademik FTE
+    - Web layanan akademik fakultas teknik elektro
+    - Website LAA FTE
+    - Website LAA Fakultas teknik elektro
+    - Website layanan akademik FTE
+    - Website layanan akademik fakultas teknik elektro
+    - IG LAA FTE
+    - IG LAA Fakultas teknik elektro
+    - IG layanan akademik FTE
+    - IG layanan akademik fakultas teknik elektro
+    - Instagram LAA FTE
+    - Instagram LAA Fakultas teknik elektro
+    - Instagram layanan akademik FTE
+    - Instagram layanan akademik fakultas teknik elektro
+    - Dimana kontak LAA FTE?
+    - Dimana kontak LAA fakultas teknik elektro?
+    - Dimana kontak layanan akademik FTE?
+    - Dimana kotak layanan akademik fakultas teknik elektro
+    - Berapa No. HP LAA FTE?
+    - Berapa NO. HP LAA fakultas teknik elektro?
+    - Berapa No. HP layanan akademik FTE?
+    - Berapa No. HP layanan akademik fakultas teknik elektro?
+    - Berapa nomor Hp LAA FTE?
+    - Berapa nomor Hp LAA fakultas teknik elektro?
+    - Berapa nomor HP layanan akademik FTE?
+    - Berapa nomor HP layanan akademik fakultas teknik elektro?
+    - Apa email LAA FTE?
+    - Apa email LAA fakultas teknik elektro?
+    - Apa email layanan akademik FTE?
+    - Apa email layanan akademik fakultas teknik elektro?
+    - Apa web LAA FTE?
+    - Apa web LAA fakultas teknik elektro?
+    - Apa web layanan akademik FTE?
+    - Apa web layanan akademik fakultas teknik elektro?
+    - Apa IG LAA FTE?
+    - Apa IG LAA fakultas teknik elektro?
+    - Apa IG layanan akademik FTE?
+    - Apa IG layanan akademik fakultas teknik elektro?
+
+- intent: ask_kontak_FRI
+  examples: |
+    - /command4
+    - FRI
+    - Fakultas rekayasa industri
+    - LAA FRI
+    - LAA Fakultas rekayasa industri
+    - Layanan akademik FRI
+    - Layanan akademik Fakultas rekayasa industri
+    - Kontak LAA FRI
+    - Kontak LAA Fakultas rekayasa industri
+    - Kotak LAA industri
+    - Kontak layanan akademik FRI
+    - No. Hp LAA FRI
+    - No. Hp LAA Fakultas rekayasa industri
+    - No. HP layanan akademik FRI
+    - No. HP layanan akademik fakultas rekayasa industri
+    - Nomor HP LAA FRI
+    - Nomor HP LAA Fakultas rekayasa industri
+    - Nomor HP layanan akademik FRI
+    - Nomor HP layanan akademik fakultas rekayasa industri
+    - Email LAA FRI
+    - Email LAA Fakultas rekayasa industri
+    - Email layanan akademik FRI
+    - Email layanan akademik fakultas rekayasa industri
+    - Web LAA FRI
+    - Web LAA Fakultas rekayasa industri
+    - Web layanan akademik FRI
+    - Web layanan akademik fakultas rekayasa industri
+    - Website LAA FRI
+    - Website LAA Fakultas rekayasa industri
+    - Website layanan akademik FRI
+    - Website layanan akademik fakultas rekayasa industri
+    - IG LAA FRI
+    - IG LAA Fakultas rekayasa industri
+    - IG layanan akademik FRI
+    - IG layanan akademik fakultas rekayasa industri
+    - Instagram LAA FRI
+    - Instagram LAA Fakultas rekayasa industri
+    - Instagram layanan akademik FRI
+    - Instagram layanan akademik fakultas rekayasa industri
+    - Dimana kontak LAA FRI?
+    - Dimana kontak LAA Fakultas rekayasa industri?
+    - Dimana kontak layanan akademik FRI?
+    - Dimana kotak layanan akademik Fakultas rekayasa industri
+    - Berapa No. HP LAA FRI?
+    - Berapa NO. HP LAA Fakultas rekayasa industri?
+    - Berapa No. HP layanan akademik FRI?
+    - Berapa No. HP layanan akademik Fakultas rekayasa industri?
+    - Berapa nomor Hp LAA FRI?
+    - Berapa nomor Hp LAA Fakultas rekayasa industri?
+    - Berapa nomor HP layanan akademik FRI?
+    - Berapa nomor HP layanan akademik Fakultas rekayasa industri?
+    - Apa email LAA FRI?
+    - Apa email LAA Fakultas rekayasa industri?
+    - Apa email layanan akademik FRI?
+    - Apa email layanan akademik Fakultas rekayasa industri?
+    - Apa web LAA FRI?
+    - Apa web LAA Fakultas rekayasa industri?
+    - Apa web layanan akademik FRI?
+    - Apa web layanan akademik Fakultas rekayasa industri?
+    - Apa IG LAA FRI?
+    - Apa IG LAA Fakultas rekayasa industri?
+    - Apa IG layanan akademik FRI?
+    - Apa IG layanan akademik Fakultas rekayasa industri?
+
+- intent: ask_kontak_FIF
+  examples: |
+    - /command5
+    - FIF
+    - Fakultas informatika
+    - LAA FIF
+    - LAA Fakultas informatika
+    - Layanan akademik FIF
+    - Layanan akademik Fakultas informatika
+    - Kontak LAA FIF
+    - Kontak LAA Fakultas informatika
+    - Kontak LAA informastika
+    - Kontak layanan akademik FIF
+    - No. Hp LAA FIF
+    - No. Hp LAA Fakultas informatika
+    - No. HP layanan akademik FIF
+    - No. HP layanan akademik fakultas informatika
+    - Nomor HP LAA FIF
+    - Nomor HP LAA Fakultas informatika
+    - Nomor HP layanan akademik FIF
+    - Nomor HP layanan akademik fakultas informatika
+    - Email LAA FIF
+    - Email LAA Fakultas informatika
+    - Email layanan akademik FIF
+    - Email layanan akademik fakultas informatika
+    - Web LAA FIF
+    - Web LAA Fakultas informatika
+    - Web layanan akademik FIF
+    - Web layanan akademik fakultas informatika
+    - Website LAA FIF
+    - Website LAA Fakultas informatika
+    - Website layanan akademik FIF
+    - Website layanan akademik fakultas informatika
+    - IG LAA FIF
+    - IG LAA Fakultas informatika
+    - IG layanan akademik FIF
+    - IG layanan akademik fakultas informatika
+    - Instagram LAA FIF
+    - Instagram LAA Fakultas informatika
+    - Instagram layanan akademik FIF
+    - Instagram layanan akademik fakultas informatika
+    - Dimana kontak LAA FIF?
+    - Dimana kontak LAA Fakultas informatika?
+    - Dimana kontak layanan akademik FIF?
+    - Dimana kotak layanan akademik Fakultas informatika
+    - Berapa No. HP LAA FIF?
+    - Berapa NO. HP LAA Fakultas informatika?
+    - Berapa No. HP layanan akademik FIF?
+    - Berapa No. HP layanan akademik Fakultas informatika?
+    - Berapa nomor Hp LAA FIF?
+    - Berapa nomor Hp LAA Fakultas informatika?
+    - Berapa nomor HP layanan akademik FIF?
+    - Berapa nomor HP layanan akademik Fakultas informatika?
+    - Apa email LAA FIF?
+    - Apa email LAA Fakultas informatika?
+    - Apa email layanan akademik FIF?
+    - Apa email layanan akademik Fakultas informatika?
+    - Apa web LAA FIF?
+    - Apa web LAA Fakultas informatika?
+    - Apa web layanan akademik FIF?
+    - Apa web layanan akademik Fakultas informatika?
+    - Apa IG LAA FIF?
+    - Apa IG LAA Fakultas informatika?
+    - Apa IG layanan akademik FIF?
+    - Apa IG layanan akademik Fakultas informatika?
+
+- intent: ask_kontak_FEB
+  examples: |
+    - /command6
+    - FEB
+    - Fakultas ekonomi bisnis
+    - Fakultas ekonomi dan bisnis
+    - LAA FEB
+    - LAA Fakultas ekonomi dan bisnis
+    - Layanan akademik FEB
+    - Layanan akademik Fakultas ekonomi dan bisnis
+    - Kontak LAA FEB
+    - Kontak LAA Fakultas ekonomi dan bisnis
+    - Kontak LAA ekonomi 
+    - Kontak layanan akademik FEB
+    - No. Hp LAA FEB
+    - No. Hp LAA Fakultas ekonomi dan bisnis
+    - No. HP layanan akademik FEB
+    - No. HP layanan akademik fakultas ekonomi dan bisnis
+    - Nomor HP LAA FEB
+    - Nomor HP LAA Fakultas ekonomi dan bisnis
+    - Nomor HP layanan akademik FEB
+    - Nomor HP layanan akademik fakultas ekonomi dan bisnis
+    - Email LAA FEB
+    - Email LAA Fakultas ekonomi dan bisnis
+    - Email layanan akademik FEB
+    - Email layanan akademik fakultas ekonomi dan bisnis
+    - Web LAA FEB
+    - Web LAA Fakultas ekonomi dan bisnis
+    - Web layanan akademik FEB
+    - Web layanan akademik fakultas ekonomi dan bisnis
+    - Website LAA FEB
+    - Website LAA Fakultas ekonomi dan bisnis
+    - Website layanan akademik FEB
+    - Website layanan akademik fakultas ekonomi dan bisnis
+    - IG LAA FEB
+    - IG LAA Fakultas ekonomi dan bisnis
+    - IG layanan akademik FEB
+    - IG layanan akademik fakultas ekonomi dan bisnis
+    - Instagram LAA FEB
+    - Instagram LAA Fakultas ekonomi dan bisnis
+    - Instagram layanan akademik FEB
+    - Instagram layanan akademik fakultas ekonomi dan bisnis
+    - Dimana kontak LAA FEB?
+    - Dimana kontak LAA Fakultas ekonomi dan bisnis?
+    - Dimana kontak layanan akademik FEB?
+    - Dimana kotak layanan akademik Fakultas ekonomi dan bisnis
+    - Berapa No. HP LAA FEB?
+    - Berapa NO. HP LAA Fakultas ekonomi dan bisnis?
+    - Berapa No. HP layanan akademik FEB?
+    - Berapa No. HP layanan akademik Fakultas ekonomi dan bisnis?
+    - Berapa nomor Hp LAA FEB?
+    - Berapa nomor Hp LAA Fakultas ekonomi dan bisnis?
+    - Berapa nomor HP layanan akademik FEB?
+    - Berapa nomor HP layanan akademik Fakultas ekonomi dan bisnis?
+    - Apa email LAA FEB?
+    - Apa email LAA Fakultas ekonomi dan bisnis?
+    - Apa email layanan akademik FEB?
+    - Apa email layanan akademik Fakultas ekonomi dan bisnis?
+    - Apa web LAA FEB?
+    - Apa web LAA Fakultas ekonomi dan bisnis?
+    - Apa web layanan akademik FEB?
+    - Apa web layanan akademik Fakultas ekonomi dan bisnis?
+    - Apa IG LAA FEB?
+    - Apa IG LAA Fakultas ekonomi dan bisnis?
+    - Apa IG layanan akademik FEB?
+    - Apa IG layanan akademik Fakultas ekonomi dan bisnis?
+
+- intent: ask_kontak_FKB
+  examples: |
+    - /command7
+    - FKB
+    - Fakultas komunikasi bisnis
+    - Fakultas komunikasi dan bisnis
+    - LAA FKB
+    - LAA Fakultas komunikasi dan bisnis
+    - Layanan akademik FKB
+    - Layanan akademik Fakultas komunikasi dan bisnis
+    - Kontak LAA FKB
+    - Kontak LAA Fakultas komunikasi dan bisnis
+    - Kontak LAA komunikasi 
+    - Kontak layanan akademik FKB
+    - No. Hp LAA FKB
+    - No. Hp LAA Fakultas komunikasi dan bisnis
+    - No. HP layanan akademik FKB
+    - No. HP layanan akademik fakultas komunikasi dan bisnis
+    - No. Hp Urusan skripsi
+    - No. Hp Urusan skripsi LAA FKB
+    - No. Hp Urusan skripsi LAA Fakultas komunikasi dan bisnis
+    - No. HP Urusan skripsi layanan akademik FKB
+    - No. HP Urusan skripsi layanan akademik fakultas komunikasi dan bisnis
+    - No. Hp Urusan prensensi
+    - No. HP Urusan kehadiran
+    - No. HP Urusan prensensi dan kehadiran
+    - No. Hp Urusan prensensi LAA FKB
+    - No. Hp Urusan kehadiran LAA FKB
+    - No. Hp Urusan prensensi dan kehadiran LAA FKB
+    - No. Hp Urusan prensensi LAA Fakultas komunikasi dan bisnis
+    - No. Hp Urusan kehadiran LAA Fakultas komunikasi dan bisnis
+    - No. Hp Urusan presensi dan kehadiran LAA Fakultas komunikasi dan bisnis
+    - No. HP Urusan prensensi layanan akademik FKB
+    - No. HP Urusan kehadiran layanan akademik FKB
+    - No. HP Urusan prensensi dan kehadiran layanan akademik FKB
+    - No. HP Urusan prensensi layanan akademik fakultas komunikasi dan bisnis
+    - No. HP Urusan kehadiran layanan akademik fakultas komunikasi dan bisnis
+    - No. HP Urusan prensensi dan kehadiran layanan akademik fakultas komunikasi dan bisnis
+    - No. Hp Urusan Desk Evaluation
+    - No. Hp Urusan Desk Evaluation LAA FKB
+    - No. Hp Urusan Desk Evaluation LAA Fakultas komunikasi dan bisnis
+    - No. HP Urusan Desk Evaluationlayanan akademik FKB
+    - No. HP Urusan Desk Evaluation layanan akademik fakultas komunikasi dan bisnis
+    - No. Hp Urusan Magang
+    - No. Hp Urusan Magang LAA FKB
+    - No. Hp Urusan Magang LAA Fakultas komunikasi dan bisnis
+    - No. HP Urusan Magang layanan akademik FKB
+    - No. HP Urusan Magang layanan akademik fakultas komunikasi dan bisnis
+    - No. Hp Prodi Administrasi Bisnis
+    - No. Hp Prodi Administrasi Bisnis LAA FKB
+    - No. Hp Prodi Administrasi Bisnis LAA Fakultas komunikasi dan bisnis
+    - No. HP Prodi Administrasi Bisnis layanan akademik FKB
+    - No. HP Prodi Administrasi Bisnis layanan akademik fakultas komunikasi dan bisnis
+    - No. Hp Prodi Ilmu Komunikasi
+    - No. Hp Prodi Ilmu Komunikasi LAA FKB
+    - No. Hp Prodi Ilmu Komunikasi LAA Fakultas komunikasi dan bisnis
+    - No. HP Prodi Ilmu Komunikasi layanan akademik FKB
+    - No. HP Prodi Ilmu Komunikasi layanan akademik fakultas komunikasi dan bisnis
+    - No. Hp Prodi D. Public Relation
+    - No. Hp Prodi D. Public Relation LAA FKB
+    - No. Hp Prodi D. Public Relation LAA Fakultas komunikasi dan bisnis
+    - No. HP Prodi D. Public Relation layanan akademik FKB
+    - No. HP Prodi D. Public Relation layanan akademik fakultas komunikasi dan bisnis
+    - Nomor HP LAA FKB
+    - Nomor HP LAA Fakultas komunikasi dan bisnis
+    - Nomor HP layanan akademik FKB
+    - Nomor HP layanan akademik fakultas komunikasi dan bisnis
+    - Nomor HP Urusan skripsi
+    - Nomor HP Urusan skripsi LAA FKB
+    - Nomor HP Urusan skripsi LAA Fakultas komunikasi dan bisnis
+    - Nomor HP Urusan skripsi layanan akademik FKB
+    - Nomor HP Urusan skripsi layanan akademik fakultas komunikasi dan bisnis
+    - Nomor HP Urusan prensensi
+    - Nomor HP Urusan kehadiran
+    - Nomor HP Urusan prensensi dan kehadiran
+    - Nomor HP Urusan prensensi LAA FKB
+    - Nomor HP Urusan kehadiran LAA FKB
+    - Nomor HP Urusan prensensi dan kehadiran LAA FKB
+    - Nomor HP Urusan prensensi LAA Fakultas komunikasi dan bisnis
+    - Nomor HP Urusan kehadiran LAA Fakultas komunikasi dan bisnis
+    - Nomor HP Urusan presensi dan kehadiran LAA Fakultas komunikasi dan bisnis
+    - Nomor HP Urusan prensensi layanan akademik FKB
+    - Nomor HP Urusan kehadiran layanan akademik FKB
+    - Nomor HP Urusan prensensi dan kehadiran layanan akademik FKB
+    - Nomor HP Urusan prensensi layanan akademik fakultas komunikasi dan bisnis
+    - Nomor HP Urusan kehadiran layanan akademik fakultas komunikasi dan bisnis
+    - Nomor HP Urusan prensensi dan kehadiran layanan akademik fakultas komunikasi dan bisnis
+    - Nomor HP Urusan Desk Evaluation
+    - Nomor HP Urusan Desk Evaluation LAA FKB
+    - Nomor HP Urusan Desk Evaluation LAA Fakultas komunikasi dan bisnis
+    - Nomor HP Urusan Desk Evaluationlayanan akademik FKB
+    - Nomor HP Urusan Desk Evaluation layanan akademik fakultas komunikasi dan bisnis
+    - Nomor HP Urusan Magang
+    - Nomor HP Urusan Magang LAA FKB
+    - Nomor HP Urusan Magang LAA Fakultas komunikasi dan bisnis
+    - Nomor HP Urusan Magang layanan akademik FKB
+    - Nomor HP Urusan Magang layanan akademik fakultas komunikasi dan bisnis
+    - Nomor HP Prodi Administrasi Bisnis
+    - Nomor HP Prodi Administrasi Bisnis LAA FKB
+    - Nomor HP Prodi Administrasi Bisnis LAA Fakultas komunikasi dan bisnis
+    - Nomor HP Prodi Administrasi Bisnis layanan akademik FKB
+    - Nomor HP Prodi Administrasi Bisnis layanan akademik fakultas komunikasi dan bisnis
+    - Nomor HP Prodi Ilmu Komunikasi
+    - Nomor HP Prodi Ilmu Komunikasi LAA FKB
+    - Nomor HP Prodi Ilmu Komunikasi LAA Fakultas komunikasi dan bisnis
+    - Nomor HP Prodi Ilmu Komunikasi layanan akademik FKB
+    - Nomor HP Prodi Ilmu Komunikasi layanan akademik fakultas komunikasi dan bisnis
+    - Nomor HP Prodi D. Public Relation
+    - Nomor HP Prodi D. Public Relation LAA FKB
+    - Nomor HP Prodi D. Public Relation LAA Fakultas komunikasi dan bisnis
+    - Nomor HP Prodi D. Public Relation layanan akademik FKB
+    - Nomor HP Prodi D. Public Relation layanan akademik fakultas komunikasi dan bisnis
+    - Email LAA FKB
+    - Email LAA Fakultas komunikasi dan bisnis
+    - Email layanan akademik FKB
+    - Email layanan akademik fakultas komunikasi dan bisnis
+    - Web LAA FKB
+    - Web LAA Fakultas komunikasi dan bisnis
+    - Web layanan akademik FKB
+    - Web layanan akademik fakultas komunikasi dan bisnis
+    - Website LAA FKB
+    - Website LAA Fakultas komunikasi dan bisnis
+    - Website layanan akademik FKB
+    - Website layanan akademik fakultas komunikasi dan bisnis
+    - IG LAA FKB
+    - IG LAA Fakultas komunikasi dan bisnis
+    - IG layanan akademik FKB
+    - IG layanan akademik fakultas komunikasi dan bisnis
+    - Instagram LAA FKB
+    - Instagram LAA Fakultas komunikasi dan bisnis
+    - Instagram layanan akademik FKB
+    - Instagram layanan akademik fakultas komunikasi dan bisnis
+    - Dimana kontak LAA FKB?
+    - Dimana kontak LAA Fakultas komunikasi dan bisnis?
+    - Dimana kontak layanan akademik FKB?
+    - Dimana kotak layanan akademik Fakultas komunikasi dan bisnis
+    - Berapa No. HP LAA FKB?
+    - Berapa NO. HP LAA Fakultas komunikasi dan bisnis?
+    - Berapa No. HP layanan akademik FKB?
+    - Berapa No. HP layanan akademik Fakultas komunikasi dan bisnis?
+    - Berapa nomor Hp LAA FKB?
+    - Berapa nomor Hp LAA Fakultas komunikasi dan bisnis?
+    - Berapa nomor HP layanan akademik FKB?
+    - Berapa nomor HP layanan akademik Fakultas komunikasi dan bisnis?
+    - Apa email LAA FKB?
+    - Apa email LAA Fakultas komunikasi dan bisnis?
+    - Apa email layanan akademik FKB?
+    - Apa email layanan akademik Fakultas komunikasi dan bisnis?
+    - Apa web LAA FKB?
+    - Apa web LAA Fakultas komunikasi dan bisnis?
+    - Apa web layanan akademik FKB?
+    - Apa web layanan akademik Fakultas komunikasi dan bisnis?
+    - Apa IG LAA FKB?
+    - Apa IG LAA Fakultas komunikasi dan bisnis?
+    - Apa IG layanan akademik FKB?
+    - Apa IG layanan akademik Fakultas komunikasi dan bisnis?
+
+- intent: ask_kontak_FIK
+  examples: |
+    - /command8
+    - FIK
+    - Fakultas ilmu kreatif
+    - LAA FIK
+    - LAA Fakultas ilmu kreatif
+    - Layanan akademik FIK
+    - Layanan akademik Fakultas ilmu kreatif
+    - Kontak LAA FIK
+    - Kontak LAA Fakultas ilmu kreatif
+    - Kontak layanan akademik FIK
+    - No. Hp LAA FIK
+    - No. Hp LAA Fakultas ilmu kreatif
+    - No. HP layanan akademik FIK
+    - No. HP layanan akademik fakultas ilmu kreatif
+    - Nomor HP LAA FIK
+    - Nomor HP LAA Fakultas ilmu kreatif
+    - Nomor HP layanan akademik FIK
+    - Nomor HP layanan akademik fakultas ilmu kreatif
+    - Email LAA FIK
+    - Email LAA Fakultas ilmu kreatif
+    - Email layanan akademik FIK
+    - Email layanan akademik fakultas ilmu kreatif
+    - Web LAA FIK
+    - Web LAA Fakultas ilmu kreatif
+    - Web layanan akademik FIK
+    - Web layanan akademik fakultas ilmu kreatif
+    - Website LAA FIK
+    - Website LAA Fakultas ilmu kreatif
+    - Website layanan akademik FIK
+    - Website layanan akademik fakultas ilmu kreatif
+    - IG LAA FIK
+    - IG LAA Fakultas ilmu kreatif
+    - IG layanan akademik FIK
+    - IG layanan akademik fakultas ilmu kreatif
+    - Instagram LAA FIK
+    - Instagram LAA Fakultas ilmu kreatif
+    - Instagram layanan akademik FIK
+    - Instagram layanan akademik fakultas ilmu kreatif
+    - Dimana kontak LAA FIK?
+    - Dimana kontak LAA Fakultas ilmu kreatif?
+    - Dimana kontak layanan akademik FIK?
+    - Dimana kotak layanan akademik Fakultas ilmu kreatif
+    - Berapa No. HP LAA FIK?
+    - Berapa NO. HP LAA Fakultas ilmu kreatif?
+    - Berapa No. HP layanan akademik FIK?
+    - Berapa No. HP layanan akademik Fakultas ilmu kreatif?
+    - Berapa nomor Hp LAA FIK?
+    - Berapa nomor Hp LAA Fakultas ilmu kreatif?
+    - Berapa nomor HP layanan akademik FIK?
+    - Berapa nomor HP layanan akademik Fakultas ilmu kreatif?
+    - Apa email LAA FIK?
+    - Apa email LAA Fakultas ilmu kreatif?
+    - Apa email layanan akademik FIK?
+    - Apa email layanan akademik Fakultas ilmu kreatif?
+    - Apa web LAA FIK?
+    - Apa web LAA Fakultas ilmu kreatif?
+    - Apa web layanan akademik FIK?
+    - Apa web layanan akademik Fakultas ilmu kreatif?
+    - Apa IG LAA FIK?
+    - Apa IG LAA Fakultas ilmu kreatif?
+    - Apa IG layanan akademik FIK?
+    - Apa IG layanan akademik Fakultas ilmu kreatif?
+
+- intent: ask_kontak_FIT
+  examples: |
+    - /command9
+    - FIT
+    - Fakultas ilmu terapan
+    - LAA FIT
+    - LAA Fakultas ilmu terapan
+    - Layanan akademik FIT
+    - Layanan akademik Fakultas ilmu terapan
+    - Kontak LAA FIT
+    - Kontak LAA Fakultas ilmu terapan
+    - Kontak layanan akademik FIT
+    - No. Hp LAA FIT
+    - No. Hp LAA Fakultas ilmu terapan
+    - No. HP layanan akademik FIT
+    - No. HP layanan akademik fakultas ilmu terapan
+    - Nomor HP LAA FIT
+    - Nomor HP LAA Fakultas ilmu terapan
+    - Nomor HP layanan akademik FIT
+    - Nomor HP layanan akademik fakultas ilmu terapan
+    - Email LAA FIT
+    - Email LAA Fakultas ilmu terapan
+    - Email layanan akademik FIT
+    - Email layanan akademik fakultas ilmu terapan
+    - Web LAA FIT
+    - Web LAA Fakultas ilmu terapan
+    - Web layanan akademik FIT
+    - Web layanan akademik fakultas ilmu terapan
+    - Website LAA FIT
+    - Website LAA Fakultas ilmu terapan
+    - Website layanan akademik FIT
+    - Website layanan akademik fakultas ilmu terapan
+    - IG LAA FIT
+    - IG LAA Fakultas ilmu terapan
+    - IG layanan akademik FIT
+    - IG layanan akademik fakultas ilmu terapan
+    - Instagram LAA FIT
+    - Instagram LAA Fakultas ilmu terapan
+    - Instagram layanan akademik FIT
+    - Instagram layanan akademik fakultas ilmu terapan
+    - Dimana kontak LAA FIT?
+    - Dimana kontak LAA Fakultas ilmu terapan?
+    - Dimana kontak layanan akademik FIT?
+    - Dimana kotak layanan akademik Fakultas ilmu terapan
+    - Berapa No. HP LAA FIT?
+    - Berapa NO. HP LAA Fakultas ilmu terapan?
+    - Berapa No. HP layanan akademik FIT?
+    - Berapa No. HP layanan akademik Fakultas ilmu terapan?
+    - Berapa nomor Hp LAA FIT?
+    - Berapa nomor Hp LAA Fakultas ilmu terapan?
+    - Berapa nomor HP layanan akademik FIT?
+    - Berapa nomor HP layanan akademik Fakultas ilmu terapan?
+    - Apa email LAA FIT?
+    - Apa email LAA Fakultas ilmu terapan?
+    - Apa email layanan akademik FIT?
+    - Apa email layanan akademik Fakultas ilmu terapan?
+    - Apa web LAA FIT?
+    - Apa web LAA Fakultas ilmu terapan?
+    - Apa web layanan akademik FIT?
+    - Apa web layanan akademik Fakultas ilmu terapan?
+    - Apa IG LAA FIT?
+    - Apa IG LAA Fakultas ilmu terapan?
+    - Apa IG layanan akademik FIT?
+    - Apa IG layanan akademik Fakultas ilmu terapan?
+
+- intent: ask_kontak_LAA
+  examples: |
+    - LAA
+    - LAA Telkom
+    - Kontak LAA
+    - Kotak LAA Telkom
+    - No. HP LAA
+    - No. HP layanan akademik
+    - Nomor HP LAA
+    - Nomor HP layanan akademik
+    - Email LAA
+    - Email layanan akademik
+    - Web LAA
+    - Web layanan akademik
+    - Website LAA
+    - Website layanan akademik
+    - IG LAA
+    - IG layanan akademik
+    - Instagram LAA
+    - Instagram layanan akademik
+    - Dimana kontak LAA?
+    - Dimana kontak layanan akademik?
+    - Berapa No. HP LAA?
+    - Berapa No. HP layanan akademik?
+    - Berapa nomor Hp LAA?
+    - Berapa nomor HP layanan akademik?
+    - Apa email LAA?
+    - Apa email layanan akademik?
+    - Apa web LAA?
+    - Apa web layanan akademik?
+    - Apa IG LAA?
+    - Apa IG layanan akademik?
+    - Dimana saya bisa mendapatkan kontak LAA?
+    - Dimana saya bisa mendapatkan kontak layanan akademik?
+
+- intent: ask_formulir
+  examples: |
+    - Form
+    - Formulir
+    - Formulir ada dimana?
+    - Dimana saya bisa mendapatkan formulir?
+
+- intent: ask_jadwal
+  examples: |
+    - Jadwal 
+    - Jadwal kuliah
+    - Jadwal perkuliahan 
+    - Kapan jadwal?
+    - Jadwal kapan?
+
+- intent: ask_list
+  examples: |
+    - /list
+    - /List
+    - list
+    - List
+    - Apa saja yang bisa dilakukan bot ini?
+    - Bot ini bisa melakukan apa saja?
+    - Dimana saya bisa mendapatkan list pertayaan yang dapat saya ajukan?
+
+- intent: out_of_scope
+  examples: |
+    - Siapa presiden indonesia?
+    - 2 + 2 berapa?
+    - Siapa rektor telkom?
+    - Dosen di telkom ada siapa aja?
+    - Kapan indonesia merdeka?
+

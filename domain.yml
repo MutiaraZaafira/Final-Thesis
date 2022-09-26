@@ -1,0 +1,215 @@
+version: "3.1"
+
+intents:
+  - ask_greet
+  - ask_goodbye
+  - ask_uts
+  - ask_uas
+  - ask_registrasi
+  - ask_kalender
+  - ask_pengambilan_ijazah_transkrip
+  - ask_surat_ijazah
+  - ask_persyaratan_ijazah_transkrip
+  - ask_legalisasi_dokumen
+  - ask_ktm
+  - ask_berkas_sidang
+  - ask_panduan_TA
+  - ask_proposal_TA
+  - ask_jurnal_TA
+  - ask_buku_TA
+  - ask_kesediaan_penguji
+  - ask_biodata_pembimbing
+  - ask_biodata_pembimbing_luar
+  - ask_perpanjang_SKTA
+  - ask_pemakluman_bahasa
+  - ask_formulir_KP
+  - ask_kerja_praktik
+  - ask_kontak_FTE
+  - ask_kontak_FRI
+  - ask_kontak_FIF
+  - ask_kontak_FEB
+  - ask_kontak_FKB
+  - ask_kontak_FIK
+  - ask_kontak_FIT
+  - ask_kontak_LAA
+  - ask_formulir
+  - ask_jadwal
+  - ask_list
+  - out_of_scope
+
+responses:
+  utter_greet:
+  - text: "Halo! Apakah ada yang bisa kami bantu? \n \nUntuk mengetahui apa saja yang bisa kami lakukan, silahkan ketik '/list'"
+
+  utter_goobye:
+  - text: "Sampai jumpa kembali!"
+
+  utter_list:
+  - text: "Untuk saat ini kami menyediakan: \n- Jadwal UTS '/command1' \n- Jadwal UAS '/command2' \n- Kontak LAA FTE '/command3' \n-Kontak LAA FRI '/command4' 
+  \n-Kontak LAA FIF '/command5' \n-Kontak LAA FEB '/command6' \n-Kontak LAA FKB '/command7' \n-Kontak LAA FIK '/command8' \n-Kontak LAA FIT '/command9' 
+  \n- Format buku TA '/command10' \n- Format jurnal TA '/command11' \n- Berkas sidang TA '/command12' \n- Format proposal TA '/command13' \n- Kalender akademik '/command14'
+  \n- Informasi kerja praktik '/command15' \n- Informasi legalisir online '/command16' \n- Informasi registrasi perkuliahan '/command17' \n- Pengajuan pembuatan KTM baru '/command18'
+  \n- (TA) Formulir perpanjang SK TA '/command19' \n- (TA) Formulir kesediaan penguji '/command20' \n- (TA) Formulir pemakluman bahasa '/command21' \n- (TA) Formulir biodata pembimbing '/command22'
+  \n- (TA) Formulir biodata pembimbing luar '/command23' \n- (KP) Formulir penilaian penguji '/command24' \n- (KP) Formulir penilaian pembimbing lapangan '/command25'
+  \n- (KP) Formulir penilaian pembimbing akademik '/command26' \n- (TA) Formulir surat pengantar pengambilan ijazah '/command27' \n- Syarat pengambilan ijazah dan transkrip nilai '/command28'
+  \n- Jadwal pengambilan ijazah dan transkrip nilai '/command29' \n \nPenulisan (KP) dan (TA) hanya untuk pembeda antar formulir yang ada. \n(KP) Formulir tersebut untuk Kerja Praktik \n(TA) Formulir tersebut untuk Tugas Akhir."
+
+  utter_uts:
+  - text: "Tahun ajaran 2022/2023 \n 
+  \nSemester ganjil, UTS dilaksanakan pada tanggal 14 sampai 23 November 2022 dan UTS susulan dilaksanakan pada tanggal 5 sampai 7 Desember 2022. 
+  \n\nJadwal untuk UTS semester genap tahun ajaran 2022/2023 belum keluar."
+
+  utter_uas:
+  - text: "Tahun ajaran 2022/2023 \n \nJadwal untuk UAS semester ganjil tahun ajaran 2022/2023 belum keluar. 
+  \n\nJadwal untuk UAS semester genap tahun ajaran 2022/2023 belum keluar."
+
+  utter_registrasi:
+  - text: "Informasi seputar ketentuan registrasi mahasiswa Telkom University tahun 2021/2022 dapat diakses melalui laman berikut, bit.ly/REGISTRASI2122"
+
+  utter_kalender:
+  - text: "Kalender akademik telkom dapat diakses melalui laman berikut, bit.ly/KALENDERAKADEMIK-TELKOM"
+
+  utter_pengambilan_ijazah_transkrip:
+  - text: "Pengambilan ijazah dan transkrip nilai tidak dapat diwakilkan dan hanya dapat dilakukan pada hari dan jam kerja. 
+  \n \nInformasi lebih lanjut mengenai ijazah dan transkrip nilai dapat diakses melalui laman berikut, bit.ly/IJAZAH-TRANSKRIPNILAI"
+
+  utter_surat_ijazah:
+  - text: "Form surat pengantar pengambilan ijazah dapat diakses melalui laman berikut, bit.ly/FORMPENGANTARPENGAMBILANIJAZAH"
+
+  utter_persyaratan_ijazah_transkrip:
+  - text: "Persyaratan untuk pengambilan ijazah dan transkrip nilai adalah \n1. Seluruh lulusan S2 Manajemen 
+  \n2. Lulusan dengan predikat Cumlaude untuk S1 \n3. Lulusan dengan predikan Cumlaude untuk S2 \n4. Form surat pengantar pengambilan ijazah. 
+  \n  \nInformasi lebih lanjut mengenai ijazah dan transkrip nilai dapat diakses melalui laman berikut, bit.ly/IJAZAH-TRANSKRIPNILAI"
+
+  utter_legalisasi_dokumen:
+  - text: "Legalisasi dokumen dapat dilakukan oleh alumni secara online. Informasi pengajuan legalisir online dapat diakses melalui laman berikut, bit.ly/LEGALISASIDOKUMEN"
+
+  utter_ktm:
+  - text: "Pengajuan pembuatan KTM baru dapat dilakukan apabila KTM yang sebelumnya rusak atau hilang. 
+  \n \nSyarat yang diperlukan untuk melakukan pengurusan pencetakan KTM baru adalah: 
+  \n1. Pengisian form yang dapat diakses melalui laman berikut bit.ly/PENGAJUANKTM 
+  \n2. Surat keterangan kehilangan dari kepolisian, apabila KTM hilang. \n3. Print Out KSM semester berjalan, apabila KTM hilang. 
+  \n4. Menyertakan bukti transfer sebesar Rp 100.000, apabila KTM rusak dan Rp 200.000, apabila KTM hilang. 
+  \n5. Menyiapkan foto dengan ketentuan, background merah dan berkemeja putih. 
+  \n \nInformasi lebih lanjut mengenai pencetakan ulang KTM dapat diakses melalui laman berikut, bit.ly/PENCETAKANKTM."
+
+  utter_berkas_sidang:
+  - text: "Pendaftaran sidang dilakukan secara online, melalui tautan bit.ly/PENDAFTARANSIDANGTAFTE 
+  \n \nAdapaun berkas yang harus dilengkapi sebagai berikut: \n1. Melengkapi surat penyataan mengikuti Sidang Tugas Akhir secara luring (onsite) pada link bit.ly/SidangLuringFTE 
+  \n2. Telah mengupload ijazah terakhir dan akta kelahiran di igracias. \n3. Bukti pengiriman Pasfoto hitam putih ukuran 4x6 (4 buah). 
+  \n \nKetentuan foto: \nPria: Pakaian Jas (berwarna terang) dan rambut rapi (tidak gondrong). 
+  \nWanita: Pakaian adat (berwarna terang), rambut disanggul (bagi yang tidak berjilbab). 
+  \nJenis kertas foto: Doff (tidak boleh glossy). \n Background: Putih \n \nDikirim ke alamat: \nu.p. Ani Yuliani 
+  \nTelkom University, TULT Lantai 1 (LAA FTE) Jl. Telekomunikasi No.1 Terusan Buah Batu, Dayeuhkolot Bandung 40257 Jawa Barat. HP 0812-2425-3349. 
+  \n \n4. Print screen lulus tingkat 3 (upload file). 
+  \n5. Print screen bimbingan online pada I-Gracias yang telah disetujui Dosen Pembimbing 1 (minimal 8x bimbingan) (upload file). 
+  \n6. Print screen SKPI yang telah di approve BK dan LAC (upload file). 
+  \n7. Form biodata ijazah dengan nama tidak kapital. (Contoh: Kevin Videstra) \n8. Bukti pembayaran biaya wisuda (upload file) 
+  \n9. SK TA dengan status masih aktif (upload file).
+  \n10. Sertifikat EprT dari LAC Telkom University dengan skor minimal 450 atau menggunakan syarat pemakluman apabila nilai minimal tidak tercapai.
+  \n11. Aturan tambahan bagi kelas international:  \nMinimal skor EPRT/ITP TOEFL 500 dan ECCT 3.5 
+  \nMinimal sertifikasi internasional \nMengikuti Immersion Program/Edutrip/Studen Exchange \nSudah menyelesaikan kewajiban Internship. 
+  \n \nPengumpulan revisi TA maksimal 3 hari sebelum yudisium, melalui bit.ly/yudisiumfte. Berikut ini berkas yang harus dikumpulkan: 
+  \n1. Form berita acara revisi TA yang telah disetujui sekertaris STA yang telah ditandatangani dan lampirkan bukti chat approval pengiriman yang sesuai dengan tanggal batas revisi 
+  \n2. Bukti upload softfline buku TA pada open library Tel-U dengan status telah disetujui oleh dosen pembimbing 1. 
+  \n3. Surat bebas kewajiban perpustakaan dari open library Tel-U \n4. Mengirimkan 1 CD yang telah disetujui pembimbing. 
+  \n \nBagi mahasiswa cumlaude harus mengisi persyaratan cumlaude di link, bit.ly/CUMLAUDEFTE"
+
+  utter_proposal_TA:
+  - text: "Panduan proposal TA dapat didownload pada laman berikut, bit.ly/PANDUANPROPOSALTA 
+  \n \nInformasi lebih lanjut mengenai berkas kelengkapan tugas akhir dapat diakses melalui laman berikut, bit.ly/KELENGKAPANTUGASAKHIR"
+
+  utter_panduan_TA:
+  - text: "Panduan buku TA dapat didownload pada laman berikut, bit.ly/PANDUANBUKUTA 
+  \n \nInformasi lebih lanjut mengenai berkas kelengkapan tugas akhir dapat diakses melalui laman berikut, bit.ly/KELENGKAPANTUGASAKHIR"
+  
+  utter_jurnal_TA:
+  - text: "Format jurnal TA dapat didownload pada laman berikut, bit.ly/FORMATJURNALTA 
+  \n \nInformasi lebih lanjut mengenai berkas kelengkapan tugas akhir dapat diakses melalui laman berikut, bit.ly/KELENGKAPANTUGASAKHIR"
+ 
+  utter_buku_TA:
+  - text: "Format buku TA dapat didownload pada laman berikut, bit.ly/FORMATBUKUTA 
+  \n \nInformasi lebih lanjut mengenai berkas kelengkapan tugas akhir dapat diakses melalui laman berikut, bit.ly/KELENGKAPANTUGASAKHIR"
+
+  utter_kesediaan_penguji:
+  - text: "Formulir kesediaan penguji dapat di download pada laman berikut, bit.ly/KESEDIAANPENGUJI 
+  \n \nInformasi lebih lanjut mengenai berkas kelengkapan tugas akhir dapat diakses melalui laman berikut, bit.ly/KELENGKAPANTUGASAKHIR"
+
+  utter_biodata_pembimbing:
+  - text: "Formulir biodata pembimbing dapat di download pada laman berikut, bit.ly/BIODATA-PEMBIMBING 
+  \n \nInformasi lebih lanjut mengenai berkas kelengkapan tugas akhir dapat diakses melalui laman berikut, bit.ly/KELENGKAPANTUGASAKHIR"
+
+  utter_biodata_pembimbing_luar:
+  - text: "Formulir biodata pembimbing luar dapat di download pada laman berikut, bit.ly/BIODATA-PEMBIMBINGLUAR 
+  \n \nInformasi lebih lanjut mengenai berkas kelengkapan tugas akhir dapat diakses melalui laman berikut, bit.ly/KELENGKAPANTUGASAKHIR"  
+
+  utter_perpanjang_SKTA:
+  - text: "Formulir perpanjang SK TA dapat di download pada laman berikut, bit.ly/PERPANJANGSKTA 
+  \n \nInformasi lebih lanjut mengenai berkas kelengkapan tugas akhir dapat diakses melalui laman berikut, bit.ly/KELENGKAPANTUGASAKHIR"
+
+  utter_pemakluman_bahasa:
+  - text: "Formulir untuk pemakluman bahasa dapat di download pada laman  berikut, bit.ly/PEMAKLUMANBAHASA 
+  \n \nInformasi lebih lanjut mengenai berkas kelengkapan tugas akhir dapat diakses melalui laman berikut, bit.ly/KELENGKAPANTUGASAKHIR"
+
+  utter_formulir_KP:
+  - text: "Formulir penilaian penguji, pembimbing lapangan dan pembimbing akademik terdapat pada buku panduan kerja praktik yang dapat diakses pada laman berikut, bit.ly/BUKUPANDUAN-KP21 
+  \n \n Informasi lebih lanjut mengenai kerja praktik dapat di akses pada laman berikut, bit.ly/KERJA-PRAKTIK"
+
+  utter_kerja_praktik:
+  - text: "Informasi mengenai kerja praktik dapat di akses pada laman berikut, bit.ly/KERJA-PRAKTIK"
+
+  utter_kontak_FTE:
+  - text: "Kontak LAA Fakultas Teknik Elektro (FTE) sebagai berikut: \n \nNo. Hp: 085221459896 
+  \n \nEmail: laakfte@telkomuniversity.ac.id \n \nWebsite: see.telkomuniversity.ac.id \n \nInstagram: @ftetelkomuniv"
+  
+  utter_kontak_FRI:
+  - text: "Kontak LAA Fakultas Rekayasa Industri (FRI) sebagai berikut: \n \nNo. Hp: 081224892224 
+  \n \nEmail: laakfri@telkomuniversity.ac.id \n \nWebsite: sie.telkomuniversity.ac.id \n \nInstagram: @fakultasrekayasaindustri"
+
+  utter_kontak_FIF:
+  - text: "Kontak LAA Fakultas Informatika (FIF) sebagai berikut: \n \nNo. Hp: 081320494212 / 08122173427 n 
+  \nEmail: laaksoc@telkomuniversity.ac.id \n \nWebsite: soc.telkomuniversity.ac.id \n \nInstagram: @informatika.telkomuniversity"
+
+  utter_kontak_FEB:
+  - text: "Kontak LAA Fakultas Ekonomi dan Bisnis (FEB) sebagai berikut: \n \nNo. Hp: 081223464653 \n 
+  \nEmail: laakfeb@telkomuniversity.ac.id \n \nWebsite: seb.telkomuniversity.ac.id \n \nInstagram: @laa.feb"
+  
+  utter_kontak_FKB:
+  - text: "Kontak LAA Fakultas Komunikasi dan Bisnis (FKB) sebagai berikut: \n \nUrusan Skripsi: 081395317071 
+  \nUrusan Prensensi & Kehadiran: 089692400535 / 085321774771 \nUrusan Desk Evaluation: 089659064194 \nUrusan Magang: 082215897879 
+  \nProdi Administrasi Bisnis: 081221834890 \nProdi Ilmu Komunikasi: 082120814279 \nProdi D. Public Relation: 087823000282 
+  \n \nEmail: laakfkb@telkomuniversity.ac.id \n \nWebsite: scb.telkomuniversity.ac.id \n \nInstagram: @laakfkb"
+
+  utter_kontak_FIK:
+  - text: "Kontak LAA Fakultas Ilmu Kreatif (FIK) sebagai berikut: \n \nNo. Hp: 081220806369 
+  \n \nEmail: laa_fik@telkomuniversity.ac.id \n \nWebsite: sci.telkomuniversity.ac.id \n \nInstagram: @laa.fik"
+
+  utter_kontak_FIT:
+  - text: "Kontak LAA Fakultas Ilmu Terapan (FIT) sebagai berikut: \n \nNo. Hp: 081330447167 / 082216500020 
+  \n \nEmail: lafit@telkomuniversity.ac.id \n \nWebsite: sas.telkomuniversity.ac.id \n \nInstagram: @fit_telkomuniv"
+
+  utter_ask_kontak_LAA:
+  - text: "Kontak LAA berbeda untuk setiap fakultasnya. Silakan pilih fakultas yang anda inginkan: 
+  \n- Fakultas Teknik Elektro \n- Fakultas Rekayasa Industri \n- Fakultas Informatika \n- Fakultas Ekonomi dan Bisnis 
+  \n- Fakultas Komunikasi dan Bisnis \n- Fakultas Ilmu Kreatif \n- Fakultas Ilmu Terapan"
+
+  utter_ask_formulir:
+  - text: "Untuk saat ini kami menyediakan beberapa formulir seperti: \n- (TA) Formulir perpanjang SK TA \n- (TA) Formulir kesediaan penguji 
+  \n- (TA) Formulir pemakluman bahasa \n- (TA) Formulir biodata pembimbing \n- (TA) Formulir biodata pembimbing luar 
+  \n- (KP) Formulir penilaian penguji \n- (KP) Formulir penilaian pembimbing lapangan \n- (KP) Formulir penilaian pembimbing akademik 
+  \n- (TA) Formulir surat pengantar pengambilan ijazah \n \nPenulisan (KP) dan (TA) hanya untuk pembeda antar formulir yang ada."
+
+  utter_ask_jadwal:
+  - text: "Saat ini kami hanya menyediakan informasi mengenai jadwal UTS dan UAS, dan untuk jadwal perkuliahan dapat di cek di Igracias."
+
+  utter_rephrase:
+  - text: "Mohon maaf saya tidak mengerti. Bisakah Anda ulangi dengan lebih jelas? 
+  \n \nAnda dapat melihat list pertanyaan yang dapat Anda ajukan dengan mengetik '/list'"
+
+  utter_out_of_scope:
+  - text: "Mohon maaf saya tidak mengerti. Bisakah Anda ulangi dengan lebih jelas? 
+  \n \nAnda dapat melihat list pertanyaan yang dapat Anda ajukan dengan mengetik '/list'"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

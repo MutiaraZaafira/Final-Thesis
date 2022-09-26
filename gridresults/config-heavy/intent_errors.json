@@ -1,0 +1,6074 @@
+[
+  {
+    "text": "Assalamualaikum",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5806950926780701
+    }
+  },
+  {
+    "text": "hey",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999983310699463
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9999992847442627
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.999998927116394
+    }
+  },
+  {
+    "text": "halo",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9974129796028137
+    }
+  },
+  {
+    "text": "selamat pagi",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6603489518165588
+    }
+  },
+  {
+    "text": "selamat siang",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9646270275115967
+    }
+  },
+  {
+    "text": "selamat sore",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.787184476852417
+    }
+  },
+  {
+    "text": "selamat malam",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.887787938117981
+    }
+  },
+  {
+    "text": "pagi",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7067373991012573
+    }
+  },
+  {
+    "text": "siang",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4763559401035309
+    }
+  },
+  {
+    "text": "sore",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.833207905292511
+    }
+  },
+  {
+    "text": "malam",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6711359024047852
+    }
+  },
+  {
+    "text": "permisi",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9930073022842407
+    }
+  },
+  {
+    "text": "makasih",
+    "intent": "ask_goodbye",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8982267379760742
+    }
+  },
+  {
+    "text": "terima kasih",
+    "intent": "ask_goodbye",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5014671087265015
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "ask_goodbye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999942779541016
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "ask_goodbye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999958276748657
+    }
+  },
+  {
+    "text": "bye bye",
+    "intent": "ask_goodbye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999899864196777
+    }
+  },
+  {
+    "text": "see you later",
+    "intent": "ask_goodbye",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9999864101409912
+    }
+  },
+  {
+    "text": "sampai jumpa kembali",
+    "intent": "ask_goodbye",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.95667964220047
+    }
+  },
+  {
+    "text": "Terima kasih dan sampai jumpa",
+    "intent": "ask_goodbye",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9872124791145325
+    }
+  },
+  {
+    "text": "Jadwal ujian tengah semester",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4965335726737976
+    }
+  },
+  {
+    "text": "Jadwal UTS",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9996393918991089
+    }
+  },
+  {
+    "text": "UTS kapan?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9980447292327881
+    }
+  },
+  {
+    "text": "Kapan UTS?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9986121654510498
+    }
+  },
+  {
+    "text": "Kapan UTS dimulai?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.999283492565155
+    }
+  },
+  {
+    "text": "UTS dimulai kapan?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9989247918128967
+    }
+  },
+  {
+    "text": "UTS dimulai tanggal berapa?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7989818453788757
+    }
+  },
+  {
+    "text": "UTS akan dilaksanakan pada tanggal berapa?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5616968870162964
+    }
+  },
+  {
+    "text": "UTS dilaksanakan tanggal berapa?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5195742249488831
+    }
+  },
+  {
+    "text": "UTS semester ini dimulai kapan?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8853070139884949
+    }
+  },
+  {
+    "text": "UTS semester ini dimulai tanggal berapa?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.2838582396507263
+    }
+  },
+  {
+    "text": "Kapan UTS dilaksanakan?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9396615028381348
+    }
+  },
+  {
+    "text": "Kapan UTS akan dilaksanakan?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5620545744895935
+    }
+  },
+  {
+    "text": "Kapan terakhir UTS dilakukan?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8298341035842896
+    }
+  },
+  {
+    "text": "Kapan jadwal UTS dimulai?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9977928400039673
+    }
+  },
+  {
+    "text": "Kapan jadwal UTS selesai?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9989104270935059
+    }
+  },
+  {
+    "text": "Kapan jadwal UTS keluar?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8923386335372925
+    }
+  },
+  {
+    "text": "Kapan UTS dilaksanakan pada semester ini?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9518045783042908
+    }
+  },
+  {
+    "text": "Kapan hari pertama UTS semester ini?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4465288519859314
+    }
+  },
+  {
+    "text": "Kapan hari terakhir UTS semester ini?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4372496008872986
+    }
+  },
+  {
+    "text": "Tanggal berapa UTS akan dilakukan?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5906183123588562
+    }
+  },
+  {
+    "text": "Tanggal berapa UTS dimulai?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8526257872581482
+    }
+  },
+  {
+    "text": "Tanggal berapa UTS akan dilaksanakan?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.48908278346061707
+    }
+  },
+  {
+    "text": "Tanggal berapa UTS dilaksanakan?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5951361060142517
+    }
+  },
+  {
+    "text": "Tanggal berapa UTS akan dimulai?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5605552196502686
+    }
+  },
+  {
+    "text": "Tanggal berapa jadwal UTS keluar?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.39319664239883423
+    }
+  },
+  {
+    "text": "Tanggal UTS dimulai?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.918181300163269
+    }
+  },
+  {
+    "text": "Tanggal UTS dilakukan?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.44299572706222534
+    }
+  },
+  {
+    "text": "Apakah UTS akan dilakukan?",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6626494526863098
+    }
+  },
+  {
+    "text": "Jadwal ujian akhir semester",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.78965824842453
+    }
+  },
+  {
+    "text": "Jadwal UAS",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9998668432235718
+    }
+  },
+  {
+    "text": "UAS kapan?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.999567449092865
+    }
+  },
+  {
+    "text": "Kapan UAS?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9996716976165771
+    }
+  },
+  {
+    "text": "Kapan UAS dimulai?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9996761083602905
+    }
+  },
+  {
+    "text": "UAS dimulai kapan?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9995496869087219
+    }
+  },
+  {
+    "text": "UAS dimulai tanggal berapa?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9310907125473022
+    }
+  },
+  {
+    "text": "UAS akan dilaksanakan pada tanggal berapa?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7108306884765625
+    }
+  },
+  {
+    "text": "UAS dilaksanakan tanggal berapa?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7332277297973633
+    }
+  },
+  {
+    "text": "UAS semester ini dimulai kapan?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9673953056335449
+    }
+  },
+  {
+    "text": "UAS semester ini dimulai tanggal berapa?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5843092203140259
+    }
+  },
+  {
+    "text": "Kapan UAS dilaksanakan?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.976958155632019
+    }
+  },
+  {
+    "text": "Kapan UAS akan dilaksanakan?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7639167904853821
+    }
+  },
+  {
+    "text": "Kapan terakhir UAS dilakukan?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5196610689163208
+    }
+  },
+  {
+    "text": "Kapan jadwal UAS dimulai?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9988057613372803
+    }
+  },
+  {
+    "text": "Kapan jadwal UAS selesai?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9992823004722595
+    }
+  },
+  {
+    "text": "Kapan jadwal UAS keluar?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9667483568191528
+    }
+  },
+  {
+    "text": "Kapan UAS dilaksanakan pada semester ini?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9764194488525391
+    }
+  },
+  {
+    "text": "Kapan hari pertama UAS semester ini?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.44285449385643005
+    }
+  },
+  {
+    "text": "Kapan hari terakhir UAS semester ini?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.39268603920936584
+    }
+  },
+  {
+    "text": "Jadwal UAS keluar kapan?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9667278528213501
+    }
+  },
+  {
+    "text": "Jadwal UAS kapan keluar?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9640241861343384
+    }
+  },
+  {
+    "text": "Tanggal berapa UAS akan dilakukan?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5528717637062073
+    }
+  },
+  {
+    "text": "Tanggal berapa UAS dimulai?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9503229260444641
+    }
+  },
+  {
+    "text": "Tanggal berapa UAS akan dilaksanakan?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.42269590497016907
+    }
+  },
+  {
+    "text": "Tanggal berapa UAS dilaksanakan?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7850005626678467
+    }
+  },
+  {
+    "text": "Tanggal berapa UAS akan dimulai?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6139470934867859
+    }
+  },
+  {
+    "text": "Tanggal berapa jadwal UAS keluar?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6183450222015381
+    }
+  },
+  {
+    "text": "Tanggal UAS dimulai?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9805108904838562
+    }
+  },
+  {
+    "text": "Tanggal UAS dilakukan?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6706448793411255
+    }
+  },
+  {
+    "text": "Apakah UAS akan dilakukan?",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8398723602294922
+    }
+  },
+  {
+    "text": "Jadwal registrasi",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9685140252113342
+    }
+  },
+  {
+    "text": "Masa registrasi",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9934790134429932
+    }
+  },
+  {
+    "text": "Registrasi dilakukan berapa lama?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6294612884521484
+    }
+  },
+  {
+    "text": "Registrasi perkuliahan dilakukan berapa lama?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6451958417892456
+    }
+  },
+  {
+    "text": "Registrasi kuliah dilakukan berapa lama?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5972416400909424
+    }
+  },
+  {
+    "text": "Registrasi perkuliahan dimulai kapan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3524685502052307
+    }
+  },
+  {
+    "text": "Kapan masa registrasi dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.908056914806366
+    }
+  },
+  {
+    "text": "Kapan masa registrasi perkuliakan dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.35084012150764465
+    }
+  },
+  {
+    "text": "Kapan masa registrasi kuliah dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.72808438539505
+    }
+  },
+  {
+    "text": "Kapan registrasi dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5498064160346985
+    }
+  },
+  {
+    "text": "Kapan registrasi perkuliahan dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6169698238372803
+    }
+  },
+  {
+    "text": "Kapan registrasi kuliah dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.60930335521698
+    }
+  },
+  {
+    "text": "Kapan masa registrasi dimulai?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9941856861114502
+    }
+  },
+  {
+    "text": "Kapan masa registrasi perkuliahan dimulai?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8140023946762085
+    }
+  },
+  {
+    "text": "Kapan masa registrasi kuliah dimulai?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9582980871200562
+    }
+  },
+  {
+    "text": "Kapan registrasi dimulai?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9694092869758606
+    }
+  },
+  {
+    "text": "Kapan registrasi perkuliahan dimulai?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3375592529773712
+    }
+  },
+  {
+    "text": "Kapan registrasi kuliah dimulai?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7948338389396667
+    }
+  },
+  {
+    "text": "Kapan masa registrasi berakhir?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7962886691093445
+    }
+  },
+  {
+    "text": "Kapan masa registrasi perkuliahan berakhir?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.32925182580947876
+    }
+  },
+  {
+    "text": "Kapan masa registrasi kuliah berakhir?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5861762166023254
+    }
+  },
+  {
+    "text": "Kapan registrasi berakhir?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7628821730613708
+    }
+  },
+  {
+    "text": "Kapan registrasi perkuliahan berakhir?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.527685284614563
+    }
+  },
+  {
+    "text": "Kapan registrasi kuliah berakhir?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6563944220542908
+    }
+  },
+  {
+    "text": "Sampai kapan registrasi berlaku?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9467449188232422
+    }
+  },
+  {
+    "text": "Sampai kapan registrasi perkuliahan berlaku?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4158850610256195
+    }
+  },
+  {
+    "text": "Sampai kapan registrasi kuliah berlaku?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7806969881057739
+    }
+  },
+  {
+    "text": "Sampai kapan masa registrasi berlaku?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9880377054214478
+    }
+  },
+  {
+    "text": "Sampai kapan masa registrasi perkuliahan berlaku?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8149367570877075
+    }
+  },
+  {
+    "text": "Sampai kapan masa registrasi kuliah berlaku?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9455548524856567
+    }
+  },
+  {
+    "text": "Sampai kapan registrasi dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9718033075332642
+    }
+  },
+  {
+    "text": "Sampai kapan registrasi perkuliahan dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6498532295227051
+    }
+  },
+  {
+    "text": "Sampai kapan registrasi kuliah dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8865737915039062
+    }
+  },
+  {
+    "text": "Sampai kapan masa registrasi dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9905295968055725
+    }
+  },
+  {
+    "text": "Sampai kapan masa registrasi perkuliahan dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8804498314857483
+    }
+  },
+  {
+    "text": "Sampai kapan masa registrasi kuliah dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9616963267326355
+    }
+  },
+  {
+    "text": "Berapa lama registrasi berlaku?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.481856107711792
+    }
+  },
+  {
+    "text": "Berapa lama masa registrasi dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.810828685760498
+    }
+  },
+  {
+    "text": "Berapa lama masa registrasi kuliah dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6364565491676331
+    }
+  },
+  {
+    "text": "Berapa lama masa registrasi perkuliahan dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3966573476791382
+    }
+  },
+  {
+    "text": "Berapa lama registrasi kuliah dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5862516760826111
+    }
+  },
+  {
+    "text": "Berapa lama registrasi perkuliahan dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6326264142990112
+    }
+  },
+  {
+    "text": "Berapa lama masa registrasi berlaku?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.43828466534614563
+    }
+  },
+  {
+    "text": "Berapa lama masa registrasi kuliah berlaku?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.2926292419433594
+    }
+  },
+  {
+    "text": "Berapa lama masa registrasi perkuliahan berlaku?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.39208534359931946
+    }
+  },
+  {
+    "text": "Berapa lama registrasi kuliah berlaku?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4502401053905487
+    }
+  },
+  {
+    "text": "Berapa lama registrasi perkuliahan berlaku?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5634064078330994
+    }
+  },
+  {
+    "text": "Berapa lama proses registrasi dilakukan?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5610939860343933
+    }
+  },
+  {
+    "text": "Proses registrasi dilakukan berapa lama?",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.527643084526062
+    }
+  },
+  {
+    "text": "Kalender Telkom",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6906123757362366
+    }
+  },
+  {
+    "text": "Kalender akademik",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7663475871086121
+    }
+  },
+  {
+    "text": "Kalender akademik 2022",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9063338041305542
+    }
+  },
+  {
+    "text": "Kalender akademik 2021",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9063337445259094
+    }
+  },
+  {
+    "text": "Kalender akademik 2020",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9063337445259094
+    }
+  },
+  {
+    "text": "Kalender akademik 2019",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9063338041305542
+    }
+  },
+  {
+    "text": "Kalender akademik 2018",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9063337445259094
+    }
+  },
+  {
+    "text": "Kalender akademik Telkom",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5293548107147217
+    }
+  },
+  {
+    "text": "Kalender akademik Telkom 2022",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6798918843269348
+    }
+  },
+  {
+    "text": "Kalender akademik Telkom 2021",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6798918843269348
+    }
+  },
+  {
+    "text": "Kalender akademik Telkom 2020",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6798918843269348
+    }
+  },
+  {
+    "text": "Kalender akademik Telkom 2019",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6798917651176453
+    }
+  },
+  {
+    "text": "Kalender akademik Telkom 2018",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6798917651176453
+    }
+  },
+  {
+    "text": "Kalender akademik bisa dilihat dimana?",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5123533010482788
+    }
+  },
+  {
+    "text": "Dimana kalender akademik Telkom?",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.43270349502563477
+    }
+  },
+  {
+    "text": "Dimana saya bisa mendapatkan kalender akademik Telkom?",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6836668252944946
+    }
+  },
+  {
+    "text": "Dimana saya bisa melihat kalender akademik Telkom?",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.38015347719192505
+    }
+  },
+  {
+    "text": "Pengambilan ijazah",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5380361676216125
+    }
+  },
+  {
+    "text": "Pengambilan transkrip nilai",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5273376107215881
+    }
+  },
+  {
+    "text": "Pengambilan ijazah dan transkip nilai",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.518150806427002
+    }
+  },
+  {
+    "text": "Siapa yang bisa mengambil ijazah?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.637508749961853
+    }
+  },
+  {
+    "text": "Siapa yang bisa mengambil transkrip nilai?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5253202319145203
+    }
+  },
+  {
+    "text": "Siapa yang bisa mengambil ijazah dan transkrip nilai?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5229628682136536
+    }
+  },
+  {
+    "text": "Siapa saja yang bisa mengambil ijazah?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9264416098594666
+    }
+  },
+  {
+    "text": "Siapa saja yang bisa mengambil transkrip nilai?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7256686687469482
+    }
+  },
+  {
+    "text": "Siapa saja yang bisa mengambil ijazah dan transkrip nilai?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6911139488220215
+    }
+  },
+  {
+    "text": "Siapa saja yang dapat mengambil ijazah?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9435854554176331
+    }
+  },
+  {
+    "text": "Siapa saja yang dapat mengambil transkrip nilai?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8346071243286133
+    }
+  },
+  {
+    "text": "Siapa saja yang dapat mengambil ijazah dan transkrip nilai?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7640883326530457
+    }
+  },
+  {
+    "text": "Kapan pengambilan ijazah dapat dilakukan?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6518669724464417
+    }
+  },
+  {
+    "text": "Kapan pemgambilan transkrip nilai dapat dilakukan?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.46473994851112366
+    }
+  },
+  {
+    "text": "Kapan pengambilan ijazah dan transkrip nilai dapat dilakukan?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.37199991941452026
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dapat diwakilkan?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5783001780509949
+    }
+  },
+  {
+    "text": "Apakah pemgambilan transkrip nilai dapat diwakilkan?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.431642085313797
+    }
+  },
+  {
+    "text": "Pakah pengambilan ijazah dan transkrip nilai dapat diwakilkan?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.46968165040016174
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah bisa diwakilkan?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.47926270961761475
+    }
+  },
+  {
+    "text": "Apakah pemgambilan transkrip nilai bisa diwakilkan?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5943501591682434
+    }
+  },
+  {
+    "text": "Pakah pengambilan ijazah dan transkrip nilai bisa diwakilkan?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5577408075332642
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dapat dilakukan hari senin?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.2642342150211334
+    }
+  },
+  {
+    "text": "Apakah pengambilan transkrip nilai dapat dilakukan hari senin?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.3054382801055908
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari senin?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3383992612361908
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dapat dilakukan hari selasa?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8851441740989685
+    }
+  },
+  {
+    "text": "Apakah pengambilan transkrip nilai dapat dilakukan hari selasa?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7147378325462341
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari selasa?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6185928583145142
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dapat dilakukan hari rabu?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.35524195432662964
+    }
+  },
+  {
+    "text": "Apakah pengambilan transkrip nilai dapat dilakukan hari rabu?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.38831207156181335
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari rabu?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.40510326623916626
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dapat dilakukan hari kamis?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6689590215682983
+    }
+  },
+  {
+    "text": "Apakah pengambilan transkrip nilai dapat dilakukan hari kamis?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.43566620349884033
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari kamis?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.366489052772522
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dapat dilakukan hari jumat?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4535355567932129
+    }
+  },
+  {
+    "text": "Apakah pengambilan transkrip nilai dapat dilakukan hari jumat?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5631248354911804
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari jumat?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5003976821899414
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dapat dilakukan hari sabtu?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8891934156417847
+    }
+  },
+  {
+    "text": "Apakah pengambilan transkrip nilai dapat dilakukan hari sabtu?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7288194894790649
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari sabtu?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6289684176445007
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dapat dilakukan hari minggu?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4757937788963318
+    }
+  },
+  {
+    "text": "Apakah pengambilan transkrip nilai dapat dilakukan hari minggu?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5615838170051575
+    }
+  },
+  {
+    "text": "Apakah pengambilan ijazah dan transkrip nilai dapat dilakukan hari minggu?",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5173726677894592
+    }
+  },
+  {
+    "text": "Persyaratan pengambilan ijazah",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.44366881251335144
+    }
+  },
+  {
+    "text": "Persyaratan pengambilan transkrip nilai",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6542540192604065
+    }
+  },
+  {
+    "text": "Persyaratan pengambilan ijazah dan transkrip nilai",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5928137898445129
+    }
+  },
+  {
+    "text": "Persyaratan utama pengambilan ijazah",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5097272992134094
+    }
+  },
+  {
+    "text": "Persyaratan utama pengambilan transkrip nilai",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7310377955436707
+    }
+  },
+  {
+    "text": "Persyaratan utama pengambilan ijazah dan transkrip nilai",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.674461305141449
+    }
+  },
+  {
+    "text": "Persyaratan utama untuk mengambil ijazah",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5445873141288757
+    }
+  },
+  {
+    "text": "Persyaratan utama untuk mengambil transkrip nilai",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.677098274230957
+    }
+  },
+  {
+    "text": "Persyaratan utama untuk mengambil ijazah dan transkrip nilai",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5993459820747375
+    }
+  },
+  {
+    "text": "Apa persyaratan untuk mengambil ijazah?",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.48751041293144226
+    }
+  },
+  {
+    "text": "Apa persyaratan untuk mengambil transkrip nilai?",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6699292659759521
+    }
+  },
+  {
+    "text": "Apa persyaratan untuk mengambil ijazah dan transkrip nilai?",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6236531734466553
+    }
+  },
+  {
+    "text": "Apa saja persyaratan untuk mengambil ijazah?",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7959715723991394
+    }
+  },
+  {
+    "text": "Apa saja persyaratan untuk mengambil transkrip nilai?",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5503148436546326
+    }
+  },
+  {
+    "text": "Apa saja persyaratan untuk mengambil ijazah dan transkrip nilai?",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.48892736434936523
+    }
+  },
+  {
+    "text": "Apakah ada persyaratan untuk mengambil ijazah?",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.688991367816925
+    }
+  },
+  {
+    "text": "Apakah ada persyaratan untuk mengambil transkrip nilai?",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4575061798095703
+    }
+  },
+  {
+    "text": "Apakah ada persyaratan tunuk mengambil ijazah dan transkrip nilai?",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6574734449386597
+    }
+  },
+  {
+    "text": "Legalisasi dokumen",
+    "intent": "ask_legalisasi_dokumen",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8674747943878174
+    }
+  },
+  {
+    "text": "Pengajuan legalisir online",
+    "intent": "ask_legalisasi_dokumen",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6299542188644409
+    }
+  },
+  {
+    "text": "Pengajuan legalisir dokumen online",
+    "intent": "ask_legalisasi_dokumen",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4233437776565552
+    }
+  },
+  {
+    "text": "Bagaimana cara untuk legalisasi dokumen?",
+    "intent": "ask_legalisasi_dokumen",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.41706332564353943
+    }
+  },
+  {
+    "text": "Bagaimana cara untuk legalisir online?",
+    "intent": "ask_legalisasi_dokumen",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5579153895378113
+    }
+  },
+  {
+    "text": "Bagaimana cara untuk legalisir dokumen online?",
+    "intent": "ask_legalisasi_dokumen",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.644971489906311
+    }
+  },
+  {
+    "text": "Cara untuk legalisir dokumen?",
+    "intent": "ask_legalisasi_dokumen",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9078302979469299
+    }
+  },
+  {
+    "text": "Cara untuk legalisir online?",
+    "intent": "ask_legalisasi_dokumen",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8294447660446167
+    }
+  },
+  {
+    "text": "Cara untuk legalisir dokumen online?",
+    "intent": "ask_legalisasi_dokumen",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9099882245063782
+    }
+  },
+  {
+    "text": "Pencetakan ulang ktm",
+    "intent": "ask_ktm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.614418089389801
+    }
+  },
+  {
+    "text": "Pencetakan ulang kartu tanda mahasiswa",
+    "intent": "ask_ktm",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8995550274848938
+    }
+  },
+  {
+    "text": "Pengajuan pencetakan ktm baru",
+    "intent": "ask_ktm",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8739904761314392
+    }
+  },
+  {
+    "text": "Persyaratan pengajuan pencetakan ktm baru",
+    "intent": "ask_ktm",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8454373478889465
+    }
+  },
+  {
+    "text": "Biaya pengajuan pencetakan ktm baru",
+    "intent": "ask_ktm",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9241116642951965
+    }
+  },
+  {
+    "text": "Berkas untuk pengurusan ktm yang hilang",
+    "intent": "ask_ktm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5428943037986755
+    }
+  },
+  {
+    "text": "Berkas untuk pengurusan ktm yang rusak",
+    "intent": "ask_ktm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3650825619697571
+    }
+  },
+  {
+    "text": "Apa saja persyaratan pengajuan pencetakan ktm baru?",
+    "intent": "ask_ktm",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8533276915550232
+    }
+  },
+  {
+    "text": "Berapa harga pencetakan ktm baru?",
+    "intent": "ask_ktm",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7980042695999146
+    }
+  },
+  {
+    "text": "Berkas apa saja yang perlu disiapkan untuk pengurusan ktm yang hilang?",
+    "intent": "ask_ktm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.41895848512649536
+    }
+  },
+  {
+    "text": "Berkas apa saja yang perlu disiapkan untuk pengurusan ktm yang rusak?",
+    "intent": "ask_ktm",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5962144732475281
+    }
+  },
+  {
+    "text": "Sidang",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5631067156791687
+    }
+  },
+  {
+    "text": "Sidang TA",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5667880177497864
+    }
+  },
+  {
+    "text": "Sidang tingkat akhir",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7572944164276123
+    }
+  },
+  {
+    "text": "Berkas sidang",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9128191471099854
+    }
+  },
+  {
+    "text": "Berkas sidang TA",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7988595962524414
+    }
+  },
+  {
+    "text": "Berkas sidang tugas akhir",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8102053999900818
+    }
+  },
+  {
+    "text": "Berkas untuk sidang",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9489865899085999
+    }
+  },
+  {
+    "text": "Berkas untuk sidang TA",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.809533417224884
+    }
+  },
+  {
+    "text": "Berkas untuk sidang tugas akhir",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.845576822757721
+    }
+  },
+  {
+    "text": "Berkas untuk mengikuti sidang",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6059284806251526
+    }
+  },
+  {
+    "text": "Berkas untuk mengikuti sidang TA",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.40472522377967834
+    }
+  },
+  {
+    "text": "Berkas untuk mengikuti sidang tingkat akhir",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4530266225337982
+    }
+  },
+  {
+    "text": "Berkas apa saja yang harus di kumpulkan untuk mengikuti sidang?",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4463243782520294
+    }
+  },
+  {
+    "text": "Berkas apa saja yang harus di kumpulkan untuk mengikuti sidang TA?",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6625205278396606
+    }
+  },
+  {
+    "text": "Berkas apa saja yang harus di kumpulkan untuk mengikuti sidang tingkat akhir?",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5887123942375183
+    }
+  },
+  {
+    "text": "Apa saja yang harus dikumpulkan untuk mengikuti sidang?",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5917773842811584
+    }
+  },
+  {
+    "text": "Apa saja yang harus dikumpulkan untuk mengikuti sidan TA?",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7594240307807922
+    }
+  },
+  {
+    "text": "Apa saja yang harus dikumpulkan untuk mengikuti sidang tingkat akhir?",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6544424295425415
+    }
+  },
+  {
+    "text": "Untuk mengikuti sidang harus mengumpulkan berkas apa saja?",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4837902784347534
+    }
+  },
+  {
+    "text": "Untuk mengikuti sidang TA harus mengumpulkan berkas apa saja?",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7352104783058167
+    }
+  },
+  {
+    "text": "Untuk mengikuti sidang tingkat akhir harus mengumpulkan berkas apa saja?",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6844379305839539
+    }
+  },
+  {
+    "text": "Buku panduan TA",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7556107044219971
+    }
+  },
+  {
+    "text": "Buku panduan tugas akhir",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.505194365978241
+    }
+  },
+  {
+    "text": "Buku panduan pelaksanaan TA",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7570640444755554
+    }
+  },
+  {
+    "text": "Buku panduan pelaksanaan tugas akhir",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5540930032730103
+    }
+  },
+  {
+    "text": "Buku panduan untuk pelaksanaan TA",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6116088628768921
+    }
+  },
+  {
+    "text": "Buku panduan untuk pelaksanaan tugas akhir",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.42323997616767883
+    }
+  },
+  {
+    "text": "Dimana buku panduan pelaksanaan TA?",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8164032101631165
+    }
+  },
+  {
+    "text": "Dimana buku panduan pelaksanaan tugas akhir?",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6258345246315002
+    }
+  },
+  {
+    "text": "Dimana buku panduan untuk pelaksanaan TA?",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6996976137161255
+    }
+  },
+  {
+    "text": "Dimana buku panduan untuk pelaksanaan tugas akhir?",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5005475282669067
+    }
+  },
+  {
+    "text": "Dimana saya mendapatkan buku panduan pelaksanaan TA?",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6479672789573669
+    }
+  },
+  {
+    "text": "Dimana saya mendapatkan buku panduan pelaksanaan tugas akhir?",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5157475471496582
+    }
+  },
+  {
+    "text": "Dimana saya bisa mendapatkan buku panduan pelaksanaan TA?",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4927496910095215
+    }
+  },
+  {
+    "text": "Dimana saya bisa mendapatkan buku panduan pelaksanaan tugas akhir?",
+    "intent": "ask_panduan_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6877222061157227
+    }
+  },
+  {
+    "text": "Proposal TA",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9873617887496948
+    }
+  },
+  {
+    "text": "Proposal tugas akhir",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9973702430725098
+    }
+  },
+  {
+    "text": "Format proposal TA",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9139093160629272
+    }
+  },
+  {
+    "text": "Format proposal tugas akhir",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9736760854721069
+    }
+  },
+  {
+    "text": "Format untuk proposal TA",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.931563138961792
+    }
+  },
+  {
+    "text": "Format untuk proposal tugas akhir",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9720529317855835
+    }
+  },
+  {
+    "text": "Format proposal untuk TA",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9306657910346985
+    }
+  },
+  {
+    "text": "Format proposal untuk tugas akhir",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9719513654708862
+    }
+  },
+  {
+    "text": "Format proposal tugas akhir dimana?",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9656291604042053
+    }
+  },
+  {
+    "text": "Format proposal tugas akhir ada dimana?",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9878460764884949
+    }
+  },
+  {
+    "text": "Proposal tugas akhir dimana?",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9941752552986145
+    }
+  },
+  {
+    "text": "Proposal tugas akhir ada dimana?",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.996931791305542
+    }
+  },
+  {
+    "text": "Dimana format proposal TA?",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8732753396034241
+    }
+  },
+  {
+    "text": "Dimana format proposal tugas akhir?",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.961463451385498
+    }
+  },
+  {
+    "text": "Dimana format untuk proposal TA?",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9110082983970642
+    }
+  },
+  {
+    "text": "Dimana format untuk proposal tugas akhir?",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9648371934890747
+    }
+  },
+  {
+    "text": "Dimana format proposal untuk TA?",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.91045081615448
+    }
+  },
+  {
+    "text": "Dimana format proposal untuk tugas akhir?",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9648110866546631
+    }
+  },
+  {
+    "text": "Dimana saya mendapatkan format proposal TA?",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9180372953414917
+    }
+  },
+  {
+    "text": "Dimana saya mendapatkan format proposal tugas akhir?",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9693698883056641
+    }
+  },
+  {
+    "text": "Jurnal TA",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5339364409446716
+    }
+  },
+  {
+    "text": "Jurnal tugas akhir",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4818516969680786
+    }
+  },
+  {
+    "text": "Format jurnal TA",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6049983501434326
+    }
+  },
+  {
+    "text": "Format jurnal tugas akhir",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4417683184146881
+    }
+  },
+  {
+    "text": "Format untuk jurnal TA",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5322089195251465
+    }
+  },
+  {
+    "text": "Format untuk jurnal tugas akhir",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.42410337924957275
+    }
+  },
+  {
+    "text": "Format jurnal untuk TA",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5285200476646423
+    }
+  },
+  {
+    "text": "Format jurnal untuk tugas akhir",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4202238619327545
+    }
+  },
+  {
+    "text": "Format jurnal TA ada dimana?",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4843405485153198
+    }
+  },
+  {
+    "text": "Format jurnal tugas akhir ada dimana?",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7909119129180908
+    }
+  },
+  {
+    "text": "Format jurnal untuk TA ada dimana?",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5901936888694763
+    }
+  },
+  {
+    "text": "Format jurnal untuk tugas akhir ada dimana?",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8233740329742432
+    }
+  },
+  {
+    "text": "Dimana format jurnal TA?",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7683289647102356
+    }
+  },
+  {
+    "text": "Dimana format jurnal tugas akhir?",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4415431022644043
+    }
+  },
+  {
+    "text": "Dimana saya mendapatkan format jurnal TA?",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.49027585983276367
+    }
+  },
+  {
+    "text": "Dimana saya mendapatkan format jurnal tugas akhir?",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6991965174674988
+    }
+  },
+  {
+    "text": "Buku TA",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9292609691619873
+    }
+  },
+  {
+    "text": "Buku tugas akhir",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4933086931705475
+    }
+  },
+  {
+    "text": "Format buku TA",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7396466135978699
+    }
+  },
+  {
+    "text": "Format buku tugas akhir",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.38030147552490234
+    }
+  },
+  {
+    "text": "Format untuk buku TA",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.502487301826477
+    }
+  },
+  {
+    "text": "Format untuk buku tugas akhir",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.36970987915992737
+    }
+  },
+  {
+    "text": "Format buku TA ada dimana?",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6461986899375916
+    }
+  },
+  {
+    "text": "Format buku tugas akhir ada dimana?",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7843303084373474
+    }
+  },
+  {
+    "text": "Buku TA ada dimana?",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5258918404579163
+    }
+  },
+  {
+    "text": "Buku tugas akhir ada dimana?",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9102709293365479
+    }
+  },
+  {
+    "text": "Dimana format buku TA?",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.908480167388916
+    }
+  },
+  {
+    "text": "Dimana format buku tugas akhir?",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5583857297897339
+    }
+  },
+  {
+    "text": "Dokumen kesediaan penguji",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.49118345975875854
+    }
+  },
+  {
+    "text": "Dokumen untuk kesediaan penguji",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3916369378566742
+    }
+  },
+  {
+    "text": "Form kesediaan penguji",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7556073069572449
+    }
+  },
+  {
+    "text": "Form untuk kesediaan penguji",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4446101784706116
+    }
+  },
+  {
+    "text": "Formulir kesediaan penguji",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.925209105014801
+    }
+  },
+  {
+    "text": "Formulir untuk kesediaan penguji",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7430442571640015
+    }
+  },
+  {
+    "text": "Form kesediaan penguji ada dimana?",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.825680136680603
+    }
+  },
+  {
+    "text": "Form untuk kesediaan penguji ada dimana?",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.88193678855896
+    }
+  },
+  {
+    "text": "Formulir kesediaan penguji ada dimana?",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6453569531440735
+    }
+  },
+  {
+    "text": "Formulir untuk kesediaan penguji ada dimana?",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7618527412414551
+    }
+  },
+  {
+    "text": "Dokumen biodata pembimbing",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8656733632087708
+    }
+  },
+  {
+    "text": "Dokumen untuk biodata pembimbing",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.46422895789146423
+    }
+  },
+  {
+    "text": "Biodata pembimbing",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9717845916748047
+    }
+  },
+  {
+    "text": "Biodata untuk pembimbing",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7430202960968018
+    }
+  },
+  {
+    "text": "Form biodata pembimbing",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9783687591552734
+    }
+  },
+  {
+    "text": "Form untuk biodata pembimbing",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8740420341491699
+    }
+  },
+  {
+    "text": "Formulir biodata pembimbing",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9806029200553894
+    }
+  },
+  {
+    "text": "Formulir biodata untuk pembimbing",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9319632649421692
+    }
+  },
+  {
+    "text": "Ada dimana biodata pembimbing?",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5285077691078186
+    }
+  },
+  {
+    "text": "Ada dimana biodata untuk pembimbing?",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7500637769699097
+    }
+  },
+  {
+    "text": "Dimana biodata pembimbing?",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.45922762155532837
+    }
+  },
+  {
+    "text": "Dimana biodata untuk pembimbing?",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5451805591583252
+    }
+  },
+  {
+    "text": "Dokumen biodata pembimbing luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7161244750022888
+    }
+  },
+  {
+    "text": "Dokumen untuk biodata pembimbing luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7857234477996826
+    }
+  },
+  {
+    "text": "Biodata pembimbing luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4140370786190033
+    }
+  },
+  {
+    "text": "Biodata pembimbing dari luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6861974596977234
+    }
+  },
+  {
+    "text": "Biodata untuk pembimbing luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6644590497016907
+    }
+  },
+  {
+    "text": "Biodata untuk pembimbing dari luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5816051363945007
+    }
+  },
+  {
+    "text": "Form biodata pembimbing luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4984259307384491
+    }
+  },
+  {
+    "text": "Form biodata pembimbing dari luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6912112236022949
+    }
+  },
+  {
+    "text": "Form biodata untuk pembimbing luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5737279653549194
+    }
+  },
+  {
+    "text": "Form biodata untuk pembimbing dari luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6335411667823792
+    }
+  },
+  {
+    "text": "Formulir biodata pembimbing luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5915374755859375
+    }
+  },
+  {
+    "text": "Formulir biodata untuk pembimbing luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.4307178258895874
+    }
+  },
+  {
+    "text": "Formulir biodata pembimbing dari luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5924979448318481
+    }
+  },
+  {
+    "text": "Formulir biodata untuk pembimbing dari luar",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6483501195907593
+    }
+  },
+  {
+    "text": "Ada dimana biodata pembimbing luar?",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7384739518165588
+    }
+  },
+  {
+    "text": "Ada dimana biodata untuk pembimbing luar?",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5414699912071228
+    }
+  },
+  {
+    "text": "Ada dimana biodata untuk pembimbing dari luar?",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6578090786933899
+    }
+  },
+  {
+    "text": "Dimana biodata pembimbing luar?",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8669105768203735
+    }
+  },
+  {
+    "text": "Dimana biodata untuk pembimbing luar?",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8113210201263428
+    }
+  },
+  {
+    "text": "Perpanjang SKTA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9843115210533142
+    }
+  },
+  {
+    "text": "Perpanjang SK TA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8018381595611572
+    }
+  },
+  {
+    "text": "Perpanjangan SKTA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.41687679290771484
+    }
+  },
+  {
+    "text": "Perpanjangan SK TA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.530559241771698
+    }
+  },
+  {
+    "text": "Dokumen perpanjang SK TA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5229727625846863
+    }
+  },
+  {
+    "text": "Dokumen untuk perpanjang SK TA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3812573254108429
+    }
+  },
+  {
+    "text": "Form perpanjang SK TA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.919980525970459
+    }
+  },
+  {
+    "text": "Form perpanjangan SK TA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5668429732322693
+    }
+  },
+  {
+    "text": "Form untuk perpanjang SK TA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7325827479362488
+    }
+  },
+  {
+    "text": "Form untuk perpanjangan SK TA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.43011948466300964
+    }
+  },
+  {
+    "text": "Formulir perpanjang SK TA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9386165142059326
+    }
+  },
+  {
+    "text": "Formulir perpanjangan SK TA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5372141599655151
+    }
+  },
+  {
+    "text": "Formulir untuk perpanjang SK TA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8036253452301025
+    }
+  },
+  {
+    "text": "Formulir untuk perpanjangan SK TA",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.43780216574668884
+    }
+  },
+  {
+    "text": "Ada dimana formulir perpanjang SK TA?",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6906816959381104
+    }
+  },
+  {
+    "text": "Ada dimana formulir perpanjangan SK TA?",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.820223331451416
+    }
+  },
+  {
+    "text": "Ada dimana formulir untuk perpanjang SK TA?",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5950855612754822
+    }
+  },
+  {
+    "text": "Ada dimana formulir untuk perpanjangan SK TA?",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.697624146938324
+    }
+  },
+  {
+    "text": "Dimana formulir perpanjang SK TA?",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.48916953802108765
+    }
+  },
+  {
+    "text": "Dimana formulir perpanjangan SK TA?",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7911186814308167
+    }
+  },
+  {
+    "text": "Dimana formulir untuk perpanjang SK TA?",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5359351634979248
+    }
+  },
+  {
+    "text": "Dimana formulir untuk perpanjangan SK TA?",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6708977818489075
+    }
+  },
+  {
+    "text": "Dokumen permohonan pemakluman bahasa",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9010944366455078
+    }
+  },
+  {
+    "text": "Dokumen permohonan untuk pemakluman bahasa",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8355615139007568
+    }
+  },
+  {
+    "text": "Permohonan pemakluman bahasa",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8231160044670105
+    }
+  },
+  {
+    "text": "Permohonan untuk pemakluman bahasa",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6916642785072327
+    }
+  },
+  {
+    "text": "Surat permohonan pemakluman bahasa",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.726076066493988
+    }
+  },
+  {
+    "text": "Surat permohonan untuk pemakluman bahasa",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6421124339103699
+    }
+  },
+  {
+    "text": "Form permohonan pemakluman bahasa",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8138534426689148
+    }
+  },
+  {
+    "text": "Form untuk permohonan pemakluman bahasa",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7184130549430847
+    }
+  },
+  {
+    "text": "Formulir permohonan pemakluman bahasa",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8562612533569336
+    }
+  },
+  {
+    "text": "Formulir untuk permohonan pemakluman bahasa",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7969574928283691
+    }
+  },
+  {
+    "text": "Ada dimana surat permohonan pemakluman bahasa?",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5151777267456055
+    }
+  },
+  {
+    "text": "Ada dimana surat untuk permohonan pemakluman bahasa?",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5855132341384888
+    }
+  },
+  {
+    "text": "Dimana surat permohonan pemakluman bahasa?",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7301497459411621
+    }
+  },
+  {
+    "text": "Dimana surat untuk permohonan pemakluman bahasa?",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6460148096084595
+    }
+  },
+  {
+    "text": "Dimana form permohonan pemakluman bahasa?",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.8254606127738953
+    }
+  },
+  {
+    "text": "Dimana form untuk permohonan pemakluman bahasa?",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7379903793334961
+    }
+  },
+  {
+    "text": "Magang",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.509109377861023
+    }
+  },
+  {
+    "text": "Kerja praktik",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7402482032775879
+    }
+  },
+  {
+    "text": "Berakas magang",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.363229900598526
+    }
+  },
+  {
+    "text": "Berkas untuk magang",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.48150938749313354
+    }
+  },
+  {
+    "text": "Dokumen kerja praktik",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8944126963615417
+    }
+  },
+  {
+    "text": "Dokumen untuk kerja praktik",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9646241664886475
+    }
+  },
+  {
+    "text": "Buku panduan kerja praktik",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8653915524482727
+    }
+  },
+  {
+    "text": "Buku panduan untuk kerja praktik",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9144325256347656
+    }
+  },
+  {
+    "text": "Dimana berkas magang?",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5044699311256409
+    }
+  },
+  {
+    "text": "Dimana berkas untuk magang?",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6636379361152649
+    }
+  },
+  {
+    "text": "Dimana berkas kerja praktik?",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7757462859153748
+    }
+  },
+  {
+    "text": "Dimana berkas untuk kerja praktik?",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8472138047218323
+    }
+  },
+  {
+    "text": "Dimana dokumen magang?",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.6671501994132996
+    }
+  },
+  {
+    "text": "Dimana dokumen untuk magang?",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.44299325346946716
+    }
+  },
+  {
+    "text": "Dimana dokumen kerja praktik?",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8722595572471619
+    }
+  },
+  {
+    "text": "Dimana dokumen untuk kerja praktik?",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9089391231536865
+    }
+  },
+  {
+    "text": "Dimana buku panduan kerja praktik?",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6954548358917236
+    }
+  },
+  {
+    "text": "Dimana buku untuk panduan kerja praktik?",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7852955460548401
+    }
+  },
+  {
+    "text": "FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5399643182754517
+    }
+  },
+  {
+    "text": "Fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7600050568580627
+    }
+  },
+  {
+    "text": "LAA FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.4565543830394745
+    }
+  },
+  {
+    "text": "LAA Fakultas Teknik Elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8898189663887024
+    }
+  },
+  {
+    "text": "Layanan akademik FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9784380197525024
+    }
+  },
+  {
+    "text": "Layanan akademik Fakultas Teknik Elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9682449698448181
+    }
+  },
+  {
+    "text": "Kontak LAA FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.936150848865509
+    }
+  },
+  {
+    "text": "Kontak LAA Fakultas Teknik Elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9195906519889832
+    }
+  },
+  {
+    "text": "Kontak layanan akademik FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9728521108627319
+    }
+  },
+  {
+    "text": "No. Hp LAA FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9972660541534424
+    }
+  },
+  {
+    "text": "No. Hp LAA Fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9918213486671448
+    }
+  },
+  {
+    "text": "No. HP layanan akademik FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9979016780853271
+    }
+  },
+  {
+    "text": "No. HP layanan akademik fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9935311675071716
+    }
+  },
+  {
+    "text": "Nomor HP LAA FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.658257007598877
+    }
+  },
+  {
+    "text": "Nomor HP LAA Fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9404781460762024
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.977882444858551
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9774942994117737
+    }
+  },
+  {
+    "text": "Email LAA FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.42164185643196106
+    }
+  },
+  {
+    "text": "Email LAA Fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7644134759902954
+    }
+  },
+  {
+    "text": "Email layanan akademik FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9217771291732788
+    }
+  },
+  {
+    "text": "Email layanan akadmnik fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9340169429779053
+    }
+  },
+  {
+    "text": "Web LAA FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7306149005889893
+    }
+  },
+  {
+    "text": "Web LAA Fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7613491415977478
+    }
+  },
+  {
+    "text": "Web layanan akademik FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9531633853912354
+    }
+  },
+  {
+    "text": "Web layanan akademik fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9578313827514648
+    }
+  },
+  {
+    "text": "Website LAA FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6252505779266357
+    }
+  },
+  {
+    "text": "Website LAA Fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5527570843696594
+    }
+  },
+  {
+    "text": "Website layanan akademik FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8908237814903259
+    }
+  },
+  {
+    "text": "Website layanan akademik fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9326959848403931
+    }
+  },
+  {
+    "text": "IG LAA FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5295272469520569
+    }
+  },
+  {
+    "text": "IG LAA Fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8911110162734985
+    }
+  },
+  {
+    "text": "IG layanan akademik FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9721803665161133
+    }
+  },
+  {
+    "text": "IG layanan akademik fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.965427577495575
+    }
+  },
+  {
+    "text": "Instagram LAA FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7070419788360596
+    }
+  },
+  {
+    "text": "Instagram LAA Fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.676782488822937
+    }
+  },
+  {
+    "text": "Instagram layanan akademik FTE",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9295724630355835
+    }
+  },
+  {
+    "text": "Instagram layanan akademik fakultas teknik elektro",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9288574457168579
+    }
+  },
+  {
+    "text": "FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.40833568572998047
+    }
+  },
+  {
+    "text": "Fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6740005612373352
+    }
+  },
+  {
+    "text": "LAA FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8553816676139832
+    }
+  },
+  {
+    "text": "LAA Fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6471539735794067
+    }
+  },
+  {
+    "text": "Layanan akademik FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9732198119163513
+    }
+  },
+  {
+    "text": "Layanan akademik Fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8016577363014221
+    }
+  },
+  {
+    "text": "Kontak LAA FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8614633679389954
+    }
+  },
+  {
+    "text": "Kontak LAA Fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.593562126159668
+    }
+  },
+  {
+    "text": "Kontak layanan akademik FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9726201891899109
+    }
+  },
+  {
+    "text": "No. Hp LAA FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9898896217346191
+    }
+  },
+  {
+    "text": "No. Hp LAA Fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.871828556060791
+    }
+  },
+  {
+    "text": "No. HP layanan akademik FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9973081350326538
+    }
+  },
+  {
+    "text": "No. HP layanan akademik fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9717578291893005
+    }
+  },
+  {
+    "text": "Nomor HP LAA FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6895958185195923
+    }
+  },
+  {
+    "text": "Nomor HP LAA Fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6705081462860107
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9612208604812622
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8648918867111206
+    }
+  },
+  {
+    "text": "Email LAA FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.836550235748291
+    }
+  },
+  {
+    "text": "Email LAA Fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.631591796875
+    }
+  },
+  {
+    "text": "Email layanan akademik FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8843141198158264
+    }
+  },
+  {
+    "text": "Email layanan akademik fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7414452433586121
+    }
+  },
+  {
+    "text": "Web LAA FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9890041947364807
+    }
+  },
+  {
+    "text": "Web LAA Fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8779730796813965
+    }
+  },
+  {
+    "text": "Web layanan akademik FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9105565547943115
+    }
+  },
+  {
+    "text": "Web layanan akademik fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7256448268890381
+    }
+  },
+  {
+    "text": "Website LAA FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9878739714622498
+    }
+  },
+  {
+    "text": "Website LAA Fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8342706561088562
+    }
+  },
+  {
+    "text": "Website layanan akademik FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8809338212013245
+    }
+  },
+  {
+    "text": "Website layanan akademik fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7012551426887512
+    }
+  },
+  {
+    "text": "IG LAA FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8694040179252625
+    }
+  },
+  {
+    "text": "IG LAA Fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6246662139892578
+    }
+  },
+  {
+    "text": "IG layanan akademik FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9460112452507019
+    }
+  },
+  {
+    "text": "IG layanan akademik fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7945714592933655
+    }
+  },
+  {
+    "text": "Instagram LAA FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.432018518447876
+    }
+  },
+  {
+    "text": "Instagram LAA Fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.32890594005584717
+    }
+  },
+  {
+    "text": "Instagram layanan akademik FRI",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9127344489097595
+    }
+  },
+  {
+    "text": "Instagram layanan akademik fakultas rekayasa industri",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7127664089202881
+    }
+  },
+  {
+    "text": "FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8655896782875061
+    }
+  },
+  {
+    "text": "Fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5965272188186646
+    }
+  },
+  {
+    "text": "LAA FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.687767744064331
+    }
+  },
+  {
+    "text": "LAA Fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.571742832660675
+    }
+  },
+  {
+    "text": "Layanan akademik FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.960666298866272
+    }
+  },
+  {
+    "text": "Layanan akademik Fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8891574144363403
+    }
+  },
+  {
+    "text": "Kontak LAA FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8802609443664551
+    }
+  },
+  {
+    "text": "Kontak LAA Fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7738288640975952
+    }
+  },
+  {
+    "text": "Kontak layanan akademik FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9585394263267517
+    }
+  },
+  {
+    "text": "No. Hp LAA FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9946871995925903
+    }
+  },
+  {
+    "text": "No. Hp LAA Fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.967592179775238
+    }
+  },
+  {
+    "text": "No. HP layanan akademik FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9970940351486206
+    }
+  },
+  {
+    "text": "No. HP layanan akademik fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9810323119163513
+    }
+  },
+  {
+    "text": "Nomor HP LAA FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5179241299629211
+    }
+  },
+  {
+    "text": "Nomor HP LAA Fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6248775720596313
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9714904427528381
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9215288758277893
+    }
+  },
+  {
+    "text": "Email LAA FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6927041411399841
+    }
+  },
+  {
+    "text": "Email LAA Fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.42324215173721313
+    }
+  },
+  {
+    "text": "Email layanan akademik FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8598372340202332
+    }
+  },
+  {
+    "text": "Email layanan akademik fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8117430806159973
+    }
+  },
+  {
+    "text": "Web LAA FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9807538986206055
+    }
+  },
+  {
+    "text": "Web LAA Fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.727607011795044
+    }
+  },
+  {
+    "text": "Web layanan akademik FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9166339635848999
+    }
+  },
+  {
+    "text": "Web layanan akademik fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8465085625648499
+    }
+  },
+  {
+    "text": "Website LAA FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9764416217803955
+    }
+  },
+  {
+    "text": "Website LAA Fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7396670579910278
+    }
+  },
+  {
+    "text": "Website layanan akademik FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8865083456039429
+    }
+  },
+  {
+    "text": "Website layanan akademik fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8262903690338135
+    }
+  },
+  {
+    "text": "IG LAA FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7292715311050415
+    }
+  },
+  {
+    "text": "IG LAA Fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5201284289360046
+    }
+  },
+  {
+    "text": "IG layanan akademik FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9458087682723999
+    }
+  },
+  {
+    "text": "IG layanan akademik fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.867119550704956
+    }
+  },
+  {
+    "text": "Instagram LAA FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8610673546791077
+    }
+  },
+  {
+    "text": "Instagram LAA Fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4544057846069336
+    }
+  },
+  {
+    "text": "Instagram layanan akademik FIF",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8539513349533081
+    }
+  },
+  {
+    "text": "Instagram layanan akademik fakultas informatika",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7579794526100159
+    }
+  },
+  {
+    "text": "FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9738315939903259
+    }
+  },
+  {
+    "text": "Fakultas ekonomi bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9809218049049377
+    }
+  },
+  {
+    "text": "Fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9824342131614685
+    }
+  },
+  {
+    "text": "LAA FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.49464166164398193
+    }
+  },
+  {
+    "text": "LAA Fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9057934284210205
+    }
+  },
+  {
+    "text": "Layanan akademik FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9589576721191406
+    }
+  },
+  {
+    "text": "Layanan akademik Fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5808038711547852
+    }
+  },
+  {
+    "text": "Kontak LAA FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7948680520057678
+    }
+  },
+  {
+    "text": "Kontak LAA Fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.59685218334198
+    }
+  },
+  {
+    "text": "Kontak layanan akademik FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9588587284088135
+    }
+  },
+  {
+    "text": "No. Hp LAA FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9903642535209656
+    }
+  },
+  {
+    "text": "No. Hp LAA Fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5606103539466858
+    }
+  },
+  {
+    "text": "No. HP layanan akademik FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9976775050163269
+    }
+  },
+  {
+    "text": "No. HP layanan akademik fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9063241481781006
+    }
+  },
+  {
+    "text": "Nomor HP LAA FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7744472622871399
+    }
+  },
+  {
+    "text": "Nomor HP LAA Fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.856835663318634
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9738209843635559
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6419947743415833
+    }
+  },
+  {
+    "text": "Email LAA FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8204256892204285
+    }
+  },
+  {
+    "text": "Email LAA Fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8826202154159546
+    }
+  },
+  {
+    "text": "Email layanan akademik FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8794155120849609
+    }
+  },
+  {
+    "text": "Email layanan akademik fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5015555024147034
+    }
+  },
+  {
+    "text": "Web LAA FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9016433954238892
+    }
+  },
+  {
+    "text": "Web LAA Fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9601505994796753
+    }
+  },
+  {
+    "text": "Web layanan akademik FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8838388323783875
+    }
+  },
+  {
+    "text": "Web layanan akademik fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.43713146448135376
+    }
+  },
+  {
+    "text": "Website LAA FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8627541065216064
+    }
+  },
+  {
+    "text": "Website LAA Fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9542005658149719
+    }
+  },
+  {
+    "text": "Website layanan akademik FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8037449717521667
+    }
+  },
+  {
+    "text": "Website layanan akademik fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.42105939984321594
+    }
+  },
+  {
+    "text": "IG LAA FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7759906649589539
+    }
+  },
+  {
+    "text": "IG LAA Fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.858148992061615
+    }
+  },
+  {
+    "text": "IG layanan akademik FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9399215579032898
+    }
+  },
+  {
+    "text": "IG layanan akademik fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5713410973548889
+    }
+  },
+  {
+    "text": "Instagram LAA FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9092522859573364
+    }
+  },
+  {
+    "text": "Instagram LAA Fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7516044974327087
+    }
+  },
+  {
+    "text": "Instagram layanan akademik FEB",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8622775673866272
+    }
+  },
+  {
+    "text": "Instagram layanan akademik fakultas ekonomi dan bisnis",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5801451206207275
+    }
+  },
+  {
+    "text": "FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4347239136695862
+    }
+  },
+  {
+    "text": "Fakultas komunikasi bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9576787352561951
+    }
+  },
+  {
+    "text": "Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9720156788825989
+    }
+  },
+  {
+    "text": "LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.47797781229019165
+    }
+  },
+  {
+    "text": "LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.916684091091156
+    }
+  },
+  {
+    "text": "Layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9772089719772339
+    }
+  },
+  {
+    "text": "Layanan akademik Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3901565670967102
+    }
+  },
+  {
+    "text": "Kontak LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8911266326904297
+    }
+  },
+  {
+    "text": "Kontak LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6628358960151672
+    }
+  },
+  {
+    "text": "Kontak layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9684629440307617
+    }
+  },
+  {
+    "text": "No. Hp LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9964585900306702
+    }
+  },
+  {
+    "text": "No. Hp LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5268701314926147
+    }
+  },
+  {
+    "text": "No. HP layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9981447458267212
+    }
+  },
+  {
+    "text": "No. HP layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.817320704460144
+    }
+  },
+  {
+    "text": "No. Hp Urusan skripsi",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8300423622131348
+    }
+  },
+  {
+    "text": "No. Hp Urusan skripsi LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8345077633857727
+    }
+  },
+  {
+    "text": "No. Hp Urusan skripsi LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7646833062171936
+    }
+  },
+  {
+    "text": "No. HP Urusan skripsi layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9843295216560364
+    }
+  },
+  {
+    "text": "No. HP Urusan skripsi layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.668003499507904
+    }
+  },
+  {
+    "text": "No. Hp Urusan prensensi",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8050341010093689
+    }
+  },
+  {
+    "text": "No. HP Urusan kehadiran",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9900643229484558
+    }
+  },
+  {
+    "text": "No. HP Urusan prensensi dan kehadiran",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8208848834037781
+    }
+  },
+  {
+    "text": "No. Hp Urusan prensensi LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8936702013015747
+    }
+  },
+  {
+    "text": "No. Hp Urusan kehadiran LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9803857803344727
+    }
+  },
+  {
+    "text": "No. Hp Urusan prensensi dan kehadiran LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8592639565467834
+    }
+  },
+  {
+    "text": "No. Hp Urusan prensensi LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6386491060256958
+    }
+  },
+  {
+    "text": "No. Hp Urusan kehadiran LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5252337455749512
+    }
+  },
+  {
+    "text": "No. Hp Urusan presensi dan kehadiran LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.46055176854133606
+    }
+  },
+  {
+    "text": "No. HP Urusan prensensi layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9691337943077087
+    }
+  },
+  {
+    "text": "No. HP Urusan kehadiran layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9881106615066528
+    }
+  },
+  {
+    "text": "No. HP Urusan prensensi dan kehadiran layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9283148050308228
+    }
+  },
+  {
+    "text": "No. HP Urusan prensensi layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6502008438110352
+    }
+  },
+  {
+    "text": "No. HP Urusan kehadiran layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8176862597465515
+    }
+  },
+  {
+    "text": "No. HP Urusan prensensi dan kehadiran layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6698802709579468
+    }
+  },
+  {
+    "text": "No. Hp Urusan Desk Evaluation",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9980409741401672
+    }
+  },
+  {
+    "text": "No. Hp Urusan Desk Evaluation LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.996379554271698
+    }
+  },
+  {
+    "text": "No. Hp Urusan Desk Evaluation LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7966511845588684
+    }
+  },
+  {
+    "text": "No. HP Urusan Desk Evaluationlayanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9915372133255005
+    }
+  },
+  {
+    "text": "No. HP Urusan Desk Evaluation layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9180704355239868
+    }
+  },
+  {
+    "text": "No. Hp Urusan Magang",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9612394571304321
+    }
+  },
+  {
+    "text": "No. Hp Urusan Magang LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9587160348892212
+    }
+  },
+  {
+    "text": "No. Hp Urusan Magang LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3988240659236908
+    }
+  },
+  {
+    "text": "No. HP Urusan Magang layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9631296396255493
+    }
+  },
+  {
+    "text": "No. HP Urusan Magang layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6779796481132507
+    }
+  },
+  {
+    "text": "No. Hp Prodi Administrasi Bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9277486801147461
+    }
+  },
+  {
+    "text": "No. Hp Prodi Administrasi Bisnis LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9171714782714844
+    }
+  },
+  {
+    "text": "No. Hp Prodi Administrasi Bisnis LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9207779765129089
+    }
+  },
+  {
+    "text": "No. HP Prodi Administrasi Bisnis layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.42085251212120056
+    }
+  },
+  {
+    "text": "No. HP Prodi Administrasi Bisnis layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6365572214126587
+    }
+  },
+  {
+    "text": "No. Hp Prodi Ilmu Komunikasi",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6502968072891235
+    }
+  },
+  {
+    "text": "No. Hp Prodi Ilmu Komunikasi LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.657943606376648
+    }
+  },
+  {
+    "text": "No. Hp Prodi Ilmu Komunikasi LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6832154393196106
+    }
+  },
+  {
+    "text": "No. HP Prodi Ilmu Komunikasi layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9433660507202148
+    }
+  },
+  {
+    "text": "No. HP Prodi Ilmu Komunikasi layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5559768676757812
+    }
+  },
+  {
+    "text": "No. Hp Prodi D. Public Relation",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6174736618995667
+    }
+  },
+  {
+    "text": "No. Hp Prodi D. Public Relation LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7219932079315186
+    }
+  },
+  {
+    "text": "No. Hp Prodi D. Public Relation LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6723347902297974
+    }
+  },
+  {
+    "text": "No. HP Prodi D. Public Relation layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9750781655311584
+    }
+  },
+  {
+    "text": "No. HP Prodi D. Public Relation layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7042546272277832
+    }
+  },
+  {
+    "text": "Nomor HP LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5581406354904175
+    }
+  },
+  {
+    "text": "Nomor HP LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8947287201881409
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9816630482673645
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.49856704473495483
+    }
+  },
+  {
+    "text": "Nomor HP Urusan skripsi",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.962245523929596
+    }
+  },
+  {
+    "text": "Nomor HP Urusan skripsi LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.905320942401886
+    }
+  },
+  {
+    "text": "Nomor HP Urusan skripsi LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9407296776771545
+    }
+  },
+  {
+    "text": "Nomor HP Urusan skripsi layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8610771894454956
+    }
+  },
+  {
+    "text": "Nomor HP Urusan skripsi layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.512693464756012
+    }
+  },
+  {
+    "text": "Nomor HP Urusan prensensi",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4570213556289673
+    }
+  },
+  {
+    "text": "Nomor HP Urusan kehadiran",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6052775382995605
+    }
+  },
+  {
+    "text": "Nomor HP Urusan prensensi dan kehadiran",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5536380410194397
+    }
+  },
+  {
+    "text": "Nomor HP Urusan prensensi LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6478710174560547
+    }
+  },
+  {
+    "text": "Nomor HP Urusan kehadiran LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7051623463630676
+    }
+  },
+  {
+    "text": "Nomor HP Urusan prensensi dan kehadiran LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4502861201763153
+    }
+  },
+  {
+    "text": "Nomor HP Urusan prensensi LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8448227047920227
+    }
+  },
+  {
+    "text": "Nomor HP Urusan kehadiran LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7354070544242859
+    }
+  },
+  {
+    "text": "Nomor HP Urusan presensi dan kehadiran LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7189900875091553
+    }
+  },
+  {
+    "text": "Nomor HP Urusan prensensi layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7948524355888367
+    }
+  },
+  {
+    "text": "Nomor HP Urusan kehadiran layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.946341335773468
+    }
+  },
+  {
+    "text": "Nomor HP Urusan prensensi dan kehadiran layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7857996225357056
+    }
+  },
+  {
+    "text": "Nomor HP Urusan prensensi layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.34297895431518555
+    }
+  },
+  {
+    "text": "Nomor HP Urusan kehadiran layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5909775495529175
+    }
+  },
+  {
+    "text": "Nomor HP Urusan prensensi dan kehadiran layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.43985724449157715
+    }
+  },
+  {
+    "text": "Nomor HP Urusan Desk Evaluation",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9194462299346924
+    }
+  },
+  {
+    "text": "Nomor HP Urusan Desk Evaluation LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9426762461662292
+    }
+  },
+  {
+    "text": "Nomor HP Urusan Desk Evaluation LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4859464466571808
+    }
+  },
+  {
+    "text": "Nomor HP Urusan Desk Evaluationlayanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9582056999206543
+    }
+  },
+  {
+    "text": "Nomor HP Urusan Desk Evaluation layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7855854034423828
+    }
+  },
+  {
+    "text": "Nomor HP Urusan Magang",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.39707642793655396
+    }
+  },
+  {
+    "text": "Nomor HP Urusan Magang LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5999003648757935
+    }
+  },
+  {
+    "text": "Nomor HP Urusan Magang LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6623879075050354
+    }
+  },
+  {
+    "text": "Nomor HP Urusan Magang layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8605260848999023
+    }
+  },
+  {
+    "text": "Nomor HP Urusan Magang layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.43364953994750977
+    }
+  },
+  {
+    "text": "Nomor HP Prodi Administrasi Bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8671218752861023
+    }
+  },
+  {
+    "text": "Nomor HP Prodi Administrasi Bisnis LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9281497597694397
+    }
+  },
+  {
+    "text": "Nomor HP Prodi Administrasi Bisnis LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9469199776649475
+    }
+  },
+  {
+    "text": "Nomor HP Prodi Administrasi Bisnis layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6927937269210815
+    }
+  },
+  {
+    "text": "Nomor HP Prodi Administrasi Bisnis layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7850249409675598
+    }
+  },
+  {
+    "text": "Nomor HP Prodi Ilmu Komunikasi",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.872443675994873
+    }
+  },
+  {
+    "text": "Nomor HP Prodi Ilmu Komunikasi LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8067247867584229
+    }
+  },
+  {
+    "text": "Nomor HP Prodi Ilmu Komunikasi LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8721261620521545
+    }
+  },
+  {
+    "text": "Nomor HP Prodi Ilmu Komunikasi layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7272312641143799
+    }
+  },
+  {
+    "text": "Nomor HP Prodi Ilmu Komunikasi layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4501878023147583
+    }
+  },
+  {
+    "text": "Nomor HP Prodi D. Public Relation",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9478948712348938
+    }
+  },
+  {
+    "text": "Nomor HP Prodi D. Public Relation LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8266049027442932
+    }
+  },
+  {
+    "text": "Nomor HP Prodi D. Public Relation LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8961966037750244
+    }
+  },
+  {
+    "text": "Nomor HP Prodi D. Public Relation layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.850119948387146
+    }
+  },
+  {
+    "text": "Nomor HP Prodi D. Public Relation layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4510824382305145
+    }
+  },
+  {
+    "text": "Email LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7556074857711792
+    }
+  },
+  {
+    "text": "Email LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9036396741867065
+    }
+  },
+  {
+    "text": "Email layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9271160364151001
+    }
+  },
+  {
+    "text": "Email layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.35602715611457825
+    }
+  },
+  {
+    "text": "Web LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7996816039085388
+    }
+  },
+  {
+    "text": "Web LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9617733359336853
+    }
+  },
+  {
+    "text": "Web layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9419059753417969
+    }
+  },
+  {
+    "text": "Web layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4816156029701233
+    }
+  },
+  {
+    "text": "Website LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8106454610824585
+    }
+  },
+  {
+    "text": "Website LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9569054245948792
+    }
+  },
+  {
+    "text": "Website layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9127436280250549
+    }
+  },
+  {
+    "text": "Website layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.48816603422164917
+    }
+  },
+  {
+    "text": "IG LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4902961254119873
+    }
+  },
+  {
+    "text": "IG LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8749016523361206
+    }
+  },
+  {
+    "text": "IG layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9673508405685425
+    }
+  },
+  {
+    "text": "IG layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3876100778579712
+    }
+  },
+  {
+    "text": "Instagram LAA FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5973254442214966
+    }
+  },
+  {
+    "text": "Instagram LAA Fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7582967281341553
+    }
+  },
+  {
+    "text": "Instagram layanan akademik FKB",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9286251664161682
+    }
+  },
+  {
+    "text": "Instagram layanan akademik fakultas komunikasi dan bisnis",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.40959057211875916
+    }
+  },
+  {
+    "text": "FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5717061161994934
+    }
+  },
+  {
+    "text": "Fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9977495074272156
+    }
+  },
+  {
+    "text": "LAA FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9671176075935364
+    }
+  },
+  {
+    "text": "LAA Fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9114004373550415
+    }
+  },
+  {
+    "text": "Layanan akademik FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.991563081741333
+    }
+  },
+  {
+    "text": "Layanan akademik Fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4943614602088928
+    }
+  },
+  {
+    "text": "Kontak LAA FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9853434562683105
+    }
+  },
+  {
+    "text": "Kontak LAA Fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.66447913646698
+    }
+  },
+  {
+    "text": "Kontak layanan akademik FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9838271141052246
+    }
+  },
+  {
+    "text": "No. Hp LAA FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9993483424186707
+    }
+  },
+  {
+    "text": "No. Hp LAA Fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7474032044410706
+    }
+  },
+  {
+    "text": "No. HP layanan akademik FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9986263513565063
+    }
+  },
+  {
+    "text": "No. HP layanan akademik fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9423157572746277
+    }
+  },
+  {
+    "text": "Nomor HP LAA FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9472010731697083
+    }
+  },
+  {
+    "text": "Nomor HP LAA Fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4632919132709503
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9925969839096069
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8731619119644165
+    }
+  },
+  {
+    "text": "Email LAA FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7317426204681396
+    }
+  },
+  {
+    "text": "Email LAA Fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9007565379142761
+    }
+  },
+  {
+    "text": "Email layanan akademik FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.965307354927063
+    }
+  },
+  {
+    "text": "Email layanan akademik fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.40145325660705566
+    }
+  },
+  {
+    "text": "Web LAA FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6392120718955994
+    }
+  },
+  {
+    "text": "Web LAA Fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6423603892326355
+    }
+  },
+  {
+    "text": "Web layanan akademik FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9838125109672546
+    }
+  },
+  {
+    "text": "Web layanan akademik fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5563557744026184
+    }
+  },
+  {
+    "text": "Website LAA FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8189844489097595
+    }
+  },
+  {
+    "text": "Website LAA Fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8173331618309021
+    }
+  },
+  {
+    "text": "Website layanan akademik FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9763388633728027
+    }
+  },
+  {
+    "text": "Website layanan akademik fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.41731154918670654
+    }
+  },
+  {
+    "text": "IG LAA FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8863795399665833
+    }
+  },
+  {
+    "text": "IG LAA Fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.850469708442688
+    }
+  },
+  {
+    "text": "IG layanan akademik FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9864917397499084
+    }
+  },
+  {
+    "text": "IG layanan akademik fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5370581746101379
+    }
+  },
+  {
+    "text": "Instagram LAA FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4941367506980896
+    }
+  },
+  {
+    "text": "Instagram LAA Fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9765116572380066
+    }
+  },
+  {
+    "text": "Instagram layanan akademik FIK",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9575111865997314
+    }
+  },
+  {
+    "text": "Instagram layanan akademik fakultas ilmu kreatif",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6936319470405579
+    }
+  },
+  {
+    "text": "FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.873415470123291
+    }
+  },
+  {
+    "text": "Fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6880084872245789
+    }
+  },
+  {
+    "text": "LAA FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5413586497306824
+    }
+  },
+  {
+    "text": "LAA Fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5270953178405762
+    }
+  },
+  {
+    "text": "Layanan akademik FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9857975840568542
+    }
+  },
+  {
+    "text": "Layanan akademik Fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7529286742210388
+    }
+  },
+  {
+    "text": "Kontak LAA FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9424152970314026
+    }
+  },
+  {
+    "text": "Kontak LAA Fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.517418384552002
+    }
+  },
+  {
+    "text": "Kontak layanan akademik FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9775732755661011
+    }
+  },
+  {
+    "text": "No. Hp LAA FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9972147345542908
+    }
+  },
+  {
+    "text": "No. Hp LAA Fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8886967897415161
+    }
+  },
+  {
+    "text": "No. HP layanan akademik FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9983285069465637
+    }
+  },
+  {
+    "text": "No. HP layanan akademik fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9513149857521057
+    }
+  },
+  {
+    "text": "Nomor HP LAA FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.57457035779953
+    }
+  },
+  {
+    "text": "Nomor HP LAA Fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.49393436312675476
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9820252656936646
+    }
+  },
+  {
+    "text": "Nomor HP layanan akademik fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7951944470405579
+    }
+  },
+  {
+    "text": "Email LAA FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.7150759696960449
+    }
+  },
+  {
+    "text": "Email LAA Fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.5071209669113159
+    }
+  },
+  {
+    "text": "Email layanan akademik FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.940809965133667
+    }
+  },
+  {
+    "text": "Email layanan akademik fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6279517412185669
+    }
+  },
+  {
+    "text": "Web LAA FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9791739583015442
+    }
+  },
+  {
+    "text": "Web LAA Fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8569950461387634
+    }
+  },
+  {
+    "text": "Web layanan akademik FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9556328058242798
+    }
+  },
+  {
+    "text": "Web layanan akademik fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6674439907073975
+    }
+  },
+  {
+    "text": "Website LAA FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9844529032707214
+    }
+  },
+  {
+    "text": "Website LAA Fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8553192019462585
+    }
+  },
+  {
+    "text": "Website layanan akademik FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9351933002471924
+    }
+  },
+  {
+    "text": "Website layanan akademik fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6623799204826355
+    }
+  },
+  {
+    "text": "IG LAA FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6519116163253784
+    }
+  },
+  {
+    "text": "IG LAA Fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4755966067314148
+    }
+  },
+  {
+    "text": "IG layanan akademik FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9764811992645264
+    }
+  },
+  {
+    "text": "IG layanan akademik fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6921120285987854
+    }
+  },
+  {
+    "text": "Instagram LAA FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4294513165950775
+    }
+  },
+  {
+    "text": "Instagram LAA Fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.31024879217147827
+    }
+  },
+  {
+    "text": "Instagram layanan akademik FIT",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9474822282791138
+    }
+  },
+  {
+    "text": "Instagram layanan akademik fakultas ilmu terapan",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.662061333656311
+    }
+  }
+]

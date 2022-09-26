@@ -1,0 +1,10 @@
+language: id
+#The heavy configuration replaces it with a GPT-2 model inside the pipeline.
+pipeline:
+  - name: HFTransformersNLP #Loading the GPT-2 model in memory
+    model_name: "gpt2" #Name of language model to use
+    model_weights: "flax-community/gpt2-small-indonesian" #Pre-Trained weights to be loaded
+  - name: LanguageModelTokenizer #Split text into tokens
+  - name: LanguageModelFeaturizer #Creates a vector representation of user message and response using a pre-trained language model.
+  - name: DIETClassifier #A multi-task architecture for intent classification and entity recognition.
+    epochs: 200

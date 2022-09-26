@@ -1,0 +1,6 @@
+language: id
+pipeline:
+  - name: ConveRTTokenizer
+  - name: ConveRTFeaturizer
+  - name: DIETClassifier
+    epochs: 200

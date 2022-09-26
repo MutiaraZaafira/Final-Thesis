@@ -1,0 +1,370 @@
+[
+  {
+    "text": "halo",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "ask_kontak_LAA",
+      "confidence": 0.8383126258850098
+    }
+  },
+  {
+    "text": "/command14",
+    "intent": "ask_kalender",
+    "intent_prediction": {
+      "name": "command14",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command29",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "command29",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command16",
+    "intent": "ask_legalisasi_dokumen",
+    "intent_prediction": {
+      "name": "command16",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command21",
+    "intent": "ask_pemakluman_bahasa",
+    "intent_prediction": {
+      "name": "command21",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command24",
+    "intent": "ask_formulir_KP",
+    "intent_prediction": {
+      "name": "command24",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command25",
+    "intent": "ask_formulir_KP",
+    "intent_prediction": {
+      "name": "command25",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "see you later",
+    "intent": "ask_goodbye",
+    "intent_prediction": {
+      "name": "ask_kontak_LAA",
+      "confidence": 0.30729594826698303
+    }
+  },
+  {
+    "text": "Jadwal ujian tengah semester",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "ask_uas",
+      "confidence": 0.9967209696769714
+    }
+  },
+  {
+    "text": "/command2",
+    "intent": "ask_uas",
+    "intent_prediction": {
+      "name": "command2",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command28",
+    "intent": "ask_persyaratan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "command28",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command11",
+    "intent": "ask_jurnal_TA",
+    "intent_prediction": {
+      "name": "command11",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command20",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "command20",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Formulir kerja praktik",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "ask_kerja_praktik",
+      "confidence": 0.9996929168701172
+    }
+  },
+  {
+    "text": "Formulir kerja praktik FTE",
+    "intent": "ask_kesediaan_penguji",
+    "intent_prediction": {
+      "name": "ask_kerja_praktik",
+      "confidence": 0.999630331993103
+    }
+  },
+  {
+    "text": "/start",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "start",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "sampai jumpa kembali",
+    "intent": "ask_goodbye",
+    "intent_prediction": {
+      "name": "ask_kontak_LAA",
+      "confidence": 0.4015994668006897
+    }
+  },
+  {
+    "text": "/command18",
+    "intent": "ask_ktm",
+    "intent_prediction": {
+      "name": "command18",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command23",
+    "intent": "ask_biodata_pembimbing_luar",
+    "intent_prediction": {
+      "name": "command23",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command19",
+    "intent": "ask_perpanjang_SKTA",
+    "intent_prediction": {
+      "name": "command19",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command15",
+    "intent": "ask_kerja_praktik",
+    "intent_prediction": {
+      "name": "command15",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command4",
+    "intent": "ask_kontak_FRI",
+    "intent_prediction": {
+      "name": "command4",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command7",
+    "intent": "ask_kontak_FKB",
+    "intent_prediction": {
+      "name": "command7",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/list",
+    "intent": "ask_list",
+    "intent_prediction": {
+      "name": "list",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Siapa rektor telkom?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_kontak_LAA",
+      "confidence": 0.5393709540367126
+    }
+  },
+  {
+    "text": "sore",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "ask_kontak_LAA",
+      "confidence": 0.621238112449646
+    }
+  },
+  {
+    "text": "/command1",
+    "intent": "ask_uts",
+    "intent_prediction": {
+      "name": "command1",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Pengambilan ijasah",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "ask_surat_ijazah",
+      "confidence": 0.8498017191886902
+    }
+  },
+  {
+    "text": "Pengambilan ijasah FTE",
+    "intent": "ask_pengambilan_ijazah_transkrip",
+    "intent_prediction": {
+      "name": "ask_surat_ijazah",
+      "confidence": 0.690663754940033
+    }
+  },
+  {
+    "text": "/command27",
+    "intent": "ask_surat_ijazah",
+    "intent_prediction": {
+      "name": "command27",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command13",
+    "intent": "ask_proposal_TA",
+    "intent_prediction": {
+      "name": "command13",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command10",
+    "intent": "ask_buku_TA",
+    "intent_prediction": {
+      "name": "command10",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command22",
+    "intent": "ask_biodata_pembimbing",
+    "intent_prediction": {
+      "name": "command22",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command3",
+    "intent": "ask_kontak_FTE",
+    "intent_prediction": {
+      "name": "command3",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command5",
+    "intent": "ask_kontak_FIF",
+    "intent_prediction": {
+      "name": "command5",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command6",
+    "intent": "ask_kontak_FEB",
+    "intent_prediction": {
+      "name": "command6",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command8",
+    "intent": "ask_kontak_FIK",
+    "intent_prediction": {
+      "name": "command8",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/List",
+    "intent": "ask_list",
+    "intent_prediction": {
+      "name": "List",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Dimana saya bisa mendapatkan list pertayaan yang dapat saya ajukan?",
+    "intent": "ask_list",
+    "intent_prediction": {
+      "name": "ask_legalisasi_dokumen",
+      "confidence": 0.43331462144851685
+    }
+  },
+  {
+    "text": "2 + 2 berapa?",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "ask_kalender",
+      "confidence": 0.9939956068992615
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "ask_uas",
+      "confidence": 0.4932958781719208
+    }
+  },
+  {
+    "text": "permisi",
+    "intent": "ask_greet",
+    "intent_prediction": {
+      "name": "ask_persyaratan_ijazah_transkrip",
+      "confidence": 0.6101312637329102
+    }
+  },
+  {
+    "text": "/command17",
+    "intent": "ask_registrasi",
+    "intent_prediction": {
+      "name": "command17",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command12",
+    "intent": "ask_berkas_sidang",
+    "intent_prediction": {
+      "name": "command12",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command26",
+    "intent": "ask_formulir_KP",
+    "intent_prediction": {
+      "name": "command26",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "/command9",
+    "intent": "ask_kontak_FIT",
+    "intent_prediction": {
+      "name": "command9",
+      "confidence": 1.0
+    }
+  }
+]

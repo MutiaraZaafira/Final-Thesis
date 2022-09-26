@@ -1,0 +1,135 @@
+version: "3.1"
+nlu:
+- intent: list
+  examples: |
+    - list
+- intent: jadwal
+  examples: |
+    - kapan jadwal mahasiswa
+- intent: out_of_scope
+  examples: |
+    - saya mau makan apa?
+- intent: bimbingan
+  examples:
+  - text: |
+      	Bagaimana cara memilih pembimbing
+- intent: ujian_susulan
+  examples: |
+    - ujian susulan akan dilakukan kapan
+- intent: SK_TA
+  examples:
+  - text: |
+      	Dimana kita mengajukan SK/TA
+- intent: magang
+  examples:
+  - text: |
+      	Apa yang harus dipersiapkan untuk magang
+  - text: |
+      Kapan jadwal magang berakhir
+- intent: jadwal_tugas_akhir
+  examples:
+  - text: |
+      	Apa saja persiapan yang diperlukan dalam menghadapi Tugas akhir/Skripsi
+  - text: |
+      kapan jadwal tugas akhir keluar
+- intent: kerja_praktek
+  examples: |
+    - Kapan jadwal kerja praktek dilaksanakan pada semester ini
+    - Kapan jadwal kerja praktek
+    - jadwal kerja praktek
+- intent: start
+  examples: |
+    - malam
+    - pagi
+- intent: sidang
+  examples:
+  - text: |
+      	Kapan sidang TA akan dilakukan
+  - text: |
+      	Apa yang harus dipersiapkan untuk sidang akademik
+  - text: |
+      	Berapa minimal TAK yang harus dikumpulkan untuk jadi syarat sidang
+- intent: goodbye
+  examples: |
+    - sampai jumpa lagi
+    - bye bye
+    - see you
+- intent: pembayaran_BPP
+  examples:
+  - text: |
+      biaya
+  - text: |
+      	Pembayaran BPP bisa dilakukan dengan melalui apasaja
+  - text: |
+      pembayaran kuliah
+- intent: KSM
+  examples:
+  - text: |
+      apakah wajib melakukan cetak KSM
+  - text: |
+      kapan terakhir melakukan cetak KSM
+  - text: |
+      kapan KSM harus dicetak
+  - text: |
+      	Jika lupa mencetak KSM apa yang harus saya lakukan
+- intent: jadwal_kuliah
+  examples: |
+    - jadwal kuliah
+    - Kapan cuti kuliah diambil
+    - kapan jadwal perkuliahan bisa diakses
+    - Dimana bisa memperbaiki jadwal perkuliahan
+    - apakah jadwal kuliah sudah dikeluarkan
+    - Apakah jadwal kuliah akan segara dikeluarkan
+- intent: registrasi_mata_kuliah
+  examples:
+  - text: |
+      	Sampai kapan masa registrasi dilakukan
+  - text: |
+      kapan masa registrasi mata kuliah
+  - text: |
+      kapan harus melakukan registrasi mata kuliah
+  - text: |
+      kapan registrasi mata kuliah dilakukan
+  - text: |
+      apakah registrasi mata kuliah wajib dilakukan
+- intent: jadwal_UTS
+  examples:
+  - text: |
+      Kapan terakhir mencetak jadwal UTS
+  - text: |
+      kapan jadwal UTS bisa dilakukan percetakan
+  - text: |
+      Kapan UTS dilaksanakan pada semester ini
+  - text: |
+      	jadwal UTS dapat dicetak sampai kapan
+  - text: |
+      kapan terakhir jadwal UTS bisa dicetak
+  - text: |
+      kapan jadwal UTS harus dicetak
+  - text: |
+      kapan jadwal UTS keluar
+- intent: jadwal_UAS
+  examples:
+  - text: |
+      	Jika lupa mencetak jadwal UAS apa yang harus saya lakukan
+  - text: |
+      	Bagaimana mengajukan UAS susulan
+  - text: |
+      jadwal UAS kapan terakhir dicetak
+  - text: |
+      	Jika saya tidak melakukan percetakan jadwal UAS saya harus melapor kemana
+  - text: |
+      kapan terakhir jadwal UAS bisa dicetak
+  - text: |
+      jadwal UAS dicetak kapan
+  - text: |
+      kapan jadwal UAS bisa dilakukan percetakan
+- intent: kartu_ujian
+  examples: |
+    - dimana kartu ujian dapat dicetak
+    - apakah wajib melakukan cetak kartu ujian
+    - dimana kartu ujian dicetak
+    - Kapan terakhir percetakan kartu ujian dilakukan
+    - kapan terakhir kartu ujian bisa dicetak
+    - kapan terakhir melakukan cetak kartu ujian
+    - cetak kartu ujian tengah semester

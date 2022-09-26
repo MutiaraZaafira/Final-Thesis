@@ -1,0 +1,465 @@
+version: "3.1"
+nlu:
+- intent: list
+  examples: |
+    - list pertanyaan yang disediakan
+- intent: jadwal
+  examples: |
+    - jadwal
+    - kapan jadwal saya keluar
+- intent: out_of_scope
+  examples: |
+    - sdfghjk
+    - berapa itu 2 + 2?
+    - siapa presiden indonesia?
+- intent: bimbingan
+  examples:
+  - text: |
+      	Berapa jumlah bimbingan yang harus dipenuhi sebelum sidang
+  - text: |
+      bimbingan
+  - text: |
+      	Kapan bisa dilakukan bimbingan
+  - text: |
+      	Bagaiamana sistem bimbingan TA
+- intent: ujian_susulan
+  examples:
+  - text: |
+      ujian susulan
+  - text: |
+      	Di mana saya bisa mengajukan ujian susulan
+  - text: |
+      apa yang perlu dipersiapkan untuk ujian susulan
+  - text: |
+      jadwal ujian susulan kapan
+  - text: |
+      kapan ujian susulan dilakukan
+- intent: SK_TA
+  examples:
+  - text: |
+      SK/TA
+  - text: |
+      	Jika SK/TA telah berakhir apakah kita harus mengajukannya kembali
+  - text: |
+      	Bagaimana tata cara perpanjangan SK/TA
+  - text: |
+      Surat keterangan tugas akhir
+  - text: |
+      	Berapa lama SK/TA di acc
+  - text: |
+      	Berapa lama SK/TA berlaku
+  - text: |
+      skta
+  - text: |
+      	Kapan masa registrasi SK/TA
+- intent: magang
+  examples:
+  - text: |
+      magang
+  - text: |
+      Kapan jadwal magang
+  - text: |
+      Kapan magang akan dilaksanankan
+  - text: |
+      	Apa saja persiapan yang diperlukan dalam menghadapi magang
+  - text: |
+      kapan jadwal magang keluar
+  - text: |
+      jadwal magang
+  - text: |
+      Kapan jadwal magang dilaksanakan pada semester ini
+  - text: |
+      	Kapan Jadwal pendaftaran magang
+- intent: jadwal_tugas_akhir
+  examples:
+  - text: |
+      Kapan jadwal tugas akhir dimulai
+  - text: |
+      Kapan jadwal tugas akhir berakhir
+  - text: |
+      jadwal tugas akhir
+  - text: |
+      	Kapan Jadwal pendaftaran tugas akhir
+  - text: |
+      	Apa yang harus dipersiapkan untuk tugas akhir
+  - text: |
+      tugas akhir
+  - text: |
+      Kapan jadwal tugas akhir dilaksanakan pada semester ini
+  - text: |
+      ta
+  - text: |
+      Kapan jadwal tugas akhir akan dilaksanankan
+- intent: kerja_praktek
+  examples:
+  - text: |
+      kerja praktik
+  - text: |
+      KP
+  - text: |
+      	Apa saja persiapan yang diperlukan dalam menghadapi kerja praktek
+  - text: |
+      	Apa yang harus dipersiapkan untuk kerja praktek
+  - text: |
+      	Kapan Jadwal pendaftaran kerja praktek
+  - text: |
+      Kapan jadwal kerja praktek berakhir
+  - text: |
+      kapan jadwal kerja praktek keluar
+  - text: |
+      Kapan kerja praktek akan dilaksanankan
+- intent: start
+  examples: |
+    - siang
+    - selamat pagi
+    - hai
+    - hai semua
+    - selamat siang
+    - hei
+    - halo
+    - assalamualikum
+    - selamat malam
+    - hei bung
+    - halo yang disana
+- intent: sidang
+  examples:
+  - text: |
+      	Kapan nilai sidang keluar
+  - text: |
+      sidang tugas akhir
+  - text: |
+      sidang
+  - text: |
+      	Apasaja syarat sidang akademik
+  - text: |
+      	Bagaimana saya bisa melakukan perjanjian sidang dengan dosen penguji
+  - text: |
+      	Apa perbedaan sidang akademik dengan sidang hasil
+  - text: |
+      	kapan jadwal sidang dilaksanakan
+  - text: |
+      	SKL kapan keluar
+  - text: |
+      	Kapan Jadwal pendaftaran sidang
+  - text: |
+      	Apa saja syarat sidang
+- intent: goodbye
+  examples: |
+    - sampai ketemu lagi
+    - jumpa lagi
+    - sampai ketemu dilain waktu
+    - dah
+    - stop
+    - semoga harimu menyenangkan
+    - have a nice day
+    - selamat tinggal
+    - sampai bertemu kembali
+    - see you later
+    - goodbye
+    - terima kasih
+- intent: pembayaran_BPP
+  examples:
+  - text: |
+      	kapan periode pembayaran BPP
+  - text: |
+      	Batas periode pembayaran BPP sampai kapan
+  - text: |
+      	Sampai kapan pembayaran BPP bisa dilakukan
+  - text: |
+      	Pembayaran BPP sampai kapan
+  - text: |
+      	Kapan dilakukan pembayaran BPP
+  - text: |
+      	Apakah BPP wajib dibayar
+  - text: |
+      	Apakah ada penundaan pembayaran BPP
+  - text: |
+      	Jika saya tidak membayar BPP apa yang perlu saya lakukan
+  - text: |
+      biaya penyelenggara pendidikan
+  - text: |
+      pembayaran BPP
+  - text: |
+      uang kuliah
+  - text: |
+      	Apakah ada potongan untuk pembayaran BPP
+- intent: KSM
+  examples:
+  - text: |
+      apakah KSM wajib untuk dicetak
+  - text: |
+      	Jika tidak melakukan percetakan KSM saya harus melapor kemana
+  - text: |
+      KSM kapan bisa terakhir dicetak
+  - text: |
+      	KSM dapat dicetak sampai kapan
+  - text: |
+      Kapan terakhir percetakan KSM dilakukan
+  - text: |
+      	Apakah wajib mencetak KSM
+  - text: |
+      kapan KSM bisa dilakukan percetakan
+  - text: |
+      kapan KSM dicetak
+  - text: |
+      kartu studi mahasiswa
+  - text: |
+      KSM kapan terakhir dicetak
+  - text: |
+      apakah KSM wajib dicetak
+  - text: |
+      kapan terakhir percetakan KSM dilakukan
+  - text: |
+      kapan terakhir KSM bisa dicetak
+  - text: |
+      KSM dicetak kapan
+  - text: |
+      	Kapan terakhir mencetak KSM
+  - text: |
+      KSM
+  - text: |
+      kapan KSM bisa dicetak
+  - text: |
+      KSM bisa dicetak kapan
+  - text: |
+      KSM kapan bisa dicetak
+- intent: jadwal_kuliah
+  examples: |
+    - kapan jadwal perkuliahan dapat diakses
+    - kapan jadwal perkuliahan keluar
+    - Dimana bisa jadwal kuliah
+    - apakah jadwal kuliah segera dikeluarkan
+    - Apakah jadwal kuliah akan dikeluarkan
+    - jadwal perkuliahan kapan dikeluarkan
+    - kapan jadwal perkuliahan bisa didownload
+    - jadwal dikeluarkan kapan
+    - kapan jadwal akan keluar
+    - Kapan cuti perkuliahan bisa diambil
+    - Dimana bisa melihat jadwal
+    - Kapan cuti kuliah bisa diambil
+    - Dimana bisa mengganti jadwal perkuliahan
+    - Dimana bisa melihat jadwal perkuliahan
+    - Kapan jadwal perkuliahan dimulai
+    - Kapan cuti bisa diambil
+    - jadwal perkuliahan dikeluarkan kapan
+    - jadwal perkuliahan akan keluar kapan
+    - jadwal perkuliahan akan dikeluarkan kapan
+    - apakah jadwal kuliah dikeluarkan segera
+- intent: registrasi_mata_kuliah
+  examples:
+  - text: |
+      kapan masa registrasi mata kuliah dilakukan
+  - text: |
+      	Apakah konsultasi wajid pada saat mulai registrasi perkuliahan
+  - text: |
+      	Jika lupa melakukan registrasi mata kuliah apa yang harus saya lakukan
+  - text: |
+      	Berapa lama proses registrasi dilakukan
+  - text: |
+      kapan terakhir registrasi mata kuliah
+  - text: |
+      apakah registrasi mata kuliah wajib untuk dilakukan
+  - text: |
+      	kapan masa registrasi perkuliahan berakhir
+  - text: |
+      registrasi mata kuliah kapan bisa terakhir dicetak
+  - text: |
+      registrasi mata kuliah bisa dicetak kapan
+  - text: |
+      kapan terakhir melakukan registrasi mata kuliah
+  - text: |
+      registrasi mata kuliah dicetak kapan
+  - text: |
+      Kapan terakhir melakukan registrasi mata kuliah
+  - text: |
+      	Jika tidak melakukan registrasi mata kuliah saya harus melapor kemana
+  - text: |
+      	registrasi mata kuliah dapat dicetak sampai kapan
+  - text: |
+      	Apakah kita wajib melakukan registrasi
+  - text: |
+      kapan terakhir registrasi mata kuliah dilakukan
+  - text: |
+      registrasi mata kuliah kapan bisa dicetak
+  - text: |
+      	Berapa lama masa registrasi dilakukan
+  - text: |
+      mata kuliah
+  - text: |
+      registrasi mata kuliah
+  - text: |
+      Kapan terakhir melakukan registrasi mata kuliah dilakukan
+  - text: |
+      	Apakah wajib melakukan registrasi mata kuliah
+  - text: |
+      	bagaimana cara melaporkan kesalahan pada saat proses registrasi
+  - text: |
+      registrasi mata kuliah kapan terakhir dicetak
+- intent: jadwal_UTS
+  examples:
+  - text: |
+      jadwal UTS kapan bisa dicetak
+  - text: |
+      Kapan jadwal UTS dimulai
+  - text: |
+      jadwal UTS bisa dicetak kapan
+  - text: |
+      	Jika  tidak melakukan percetakan jadwal UTS saya harus melapor kemana
+  - text: |
+      apakah wajib melakukan cetak jadwal UTS
+  - text: |
+      Kapan UTS berakhir
+  - text: |
+      kapan jadwal UTS bisa dicetak
+  - text: |
+      apakah jadwal UTS wajib untuk dicetak
+  - text: |
+      jadwal UTS kapan terakhir dicetak
+  - text: |
+      kapan terakhir melakukan cetak jadwal UTS
+  - text: |
+      jadwal UTS kapan bisa terakhir dicetak
+  - text: |
+      dimana jadwal UTS dapat dicetak
+  - text: |
+      	UTS akan dilaksanakan pada tanggal berapa	
+  - text: |
+      jadwal UTS dicetak kapan
+  - text: |
+      dimana jadwal UTS dicetak
+  - text: |
+      	Apakah UTS akan dilakukan
+  - text: |
+      jadwal UTS
+  - text: |
+      ujian tengah semester
+  - text: |
+      	Jika lupa mencetak jadwal UTS apa yang harus saya lakukan
+  - text: |
+      apakah jadwal UTS wajib dicetak
+  - text: |
+      UTS
+  - text: |
+      	Bagaimana mengajukan UTS susulan
+  - text: |
+      	Apakah wajib mencetak jadwal UTS
+  - text: |
+      Kapan terakhir percetakan jadwal UTS dilakukan
+  - text: |
+      Kapan UTS akan dilaksanankan
+  - text: |
+      kapan jadwal UTS dicetak
+  - text: |
+      	Dimana jadwal UTS harus dicetak
+- intent: jadwal_UAS
+  examples:
+  - text: |
+      	jadwal UAS dapat dicetak sampai kapan
+  - text: |
+      kapan jadwal UAS keluar
+  - text: |
+      jadwal UAS bisa dicetak kapan
+  - text: |
+      Kapan terakhir percetakan jadwal UAS dilakukan
+  - text: |
+      	Dimana jadwal UAS harus dicetak
+  - text: |
+      ujian akhir semester
+  - text: |
+      apakah wajib melakukan cetak jadwal_UAS
+  - text: |
+      apakah jadwal UAS wajib dicetak
+  - text: |
+      UAS
+  - text: |
+      kapan jadwal UAS harus dicetak
+  - text: |
+      Kapan UAS dilaksanakan pada semester ini
+  - text: |
+      kapan jadwal UAS bisa dicetak
+  - text: |
+      	Apakah wajib mencetak jadwal UAS
+  - text: |
+      Kapan UAS akan dilaksanankan
+  - text: |
+      	UAS akan dilaksanakan pada tanggal berapa	
+  - text: |
+      apakah jadwal UAS wajib untuk dicetak
+  - text: |
+      kapan jadwal UAS dicetak
+  - text: |
+      kapan terakhir melakukan cetak jadwal UAS
+  - text: |
+      dimana jadwal UAS dicetak
+  - text: |
+      jadwal UAS
+  - text: |
+      dimana jadwal UAS dapat dicetak
+  - text: |
+      Kapan UAS berakhir
+  - text: |
+      Kapan jadwal UAS dimulai
+  - text: |
+      	Apakah UAS akan dilakukan
+  - text: |
+      Kapan terakhir mencetak jadwal UAS
+  - text: |
+      jadwal UAS kapan bisa dicetak
+  - text: |
+      jadwal UAS kapan bisa terakhir dicetak
+- intent: kartu_ujian
+  examples:
+  - text: |
+      Kapan kartu ujian berakhir
+  - text: |
+      apakah kartu ujian wajib dicetak
+  - text: |
+      kartu ujian bisa dicetak kapan
+  - text: |
+      	kartu ujian akan dilaksanakan pada tanggal berapa	
+  - text: |
+      cetak kartu ujian
+  - text: |
+      kartu ujian dicetak kapan
+  - text: |
+      kapan kartu ujian keluar
+  - text: |
+      kapan kartu ujian dicetak
+  - text: |
+      kartu ujian kapan bisa dicetak
+  - text: |
+      Kapan terakhir mencetak kartu ujian
+  - text: |
+      kapan kartu ujian bisa dicetak
+  - text: |
+      kapan kartu ujian bisa dilakukan percetakan
+  - text: |
+      	Dimana kartu ujian harus dicetak
+  - text: |
+      	Apakah wajib mencetak kartu ujian
+  - text: |
+      apakah kartu ujian wajib untuk dicetak
+  - text: |
+      kartu ujian kapan bisa terakhir dicetak
+  - text: |
+      cetak kartu uas
+  - text: |
+      cetak kartu uts
+  - text: |
+      kartu ujian
+  - text: |
+      	Jika tidak mencetak kartu ujian apakah akan dikenakan sanksi
+  - text: |
+      kapan kartu ujian harus dicetak
+  - text: |
+      cetak kartu ujian akhir semester
+  - text: |
+      kartu ujian kapan terakhir dicetak
+  - text: |
+      	Apakah ada batas keterlambatan untuk pencetakan  kartu ujian
+  - text: |
+      	kartu ujian dapat dicetak sampai kapan
+  - text: |
+      	Jika saya tidak melakukan percetakan kartu ujian saya harus melapor kemana
+  - text: |
+      	Jika lupa mencetak kartu ujian apa yang harus saya lakukan
