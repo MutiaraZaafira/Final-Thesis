@@ -1,0 +1,10 @@
+mailchimp3
+oauth2client
+gspread
+beautifulsoup4
+requests
+geopy
+pandas
+algoliasearch
+spacy
+python-dotenv
